@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<div class="flex flex-col gap-4">
+	<div class="not-prose flex cursor-default flex-col space-y-4 rounded-lg border border-white p-4">
+		<img src="{{ or $p.portraitImage "/portrait.png" }}" alt="Portrait" class="pixelated pixel-portrait">
+		<div>
+			{{ with $p.introTitle }}<strong>{{ . }}</strong>{{ end }}
+			{{ with $p.introBody }}{{ . | markdownify }}{{ end }}
+		</div>
+	</div>
+	<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
+		<img src="{{ or $p.statusImage "/status.png" }}" alt="Status" class="self-start pixelated">
+		{{ with $p.statusText }}<div>{{ . | markdownify }}</div>{{ end }}
+	</div>
+	<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
+		<img src="{{ or $p.watchingImage "/watching.png" }}" alt="Watching" class="self-start pixelated">
+		{{ if or $p.watchingUrl $p.watchingText }}
+			<p class="underline">
+				{{ if $p.watchingUrl }}<a href="{{ $p.watchingUrl }}">{{ end }}
+				{{ or $p.watchingText "" }}
+				{{ if $p.watchingUrl }}</a>{{ end }}
+			</p>
+		{{ end }}
+	</div>
+</div>
+{{ .Content }}
+{{ end }}

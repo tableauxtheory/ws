@@ -1,0 +1,41 @@
+:root {
+  --pixel-scale: 2;
+}
+
+html,
+body {
+  background-color: #000000;
+}
+
+img.pixelated,
+.pixelated img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.pixel-icon {
+  height: calc(16px * var(--pixel-scale));
+  width: auto;
+}
+
+.pixel-label {
+  width: calc(98px * var(--pixel-scale));
+  height: calc(54px * var(--pixel-scale));
+}
+
+.pixel-portrait {
+  width: min(100%, calc(423px * var(--pixel-scale)));
+  height: auto;
+}
+
+input[type="checkbox"] {
+  width: calc(16px * var(--pixel-scale));
+  height: calc(16px * var(--pixel-scale));
+  background-size: 100% 100%;
+}
+
+ul li::before {
+  width: calc(8px * var(--pixel-scale));
+  height: calc(8px * var(--pixel-scale));
+  background-size: 100% 100%;
+}
