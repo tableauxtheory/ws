@@ -1,0 +1,4 @@
+baseURL = 'https://tableauxtheory.com/'
+languageCode = 'en-us'
+title = 'TABLEAUX THEORY'
+theme = 'digio-theme'
