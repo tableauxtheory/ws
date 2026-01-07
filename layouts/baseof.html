@@ -92,7 +92,22 @@
       <img src="/border-home1.png" alt="border-home1" class="pixelated">
     </div>
     <footer>
-      {{ partial "footer.html" . }}
+      <p class="text-xs px-6 py-6" id="site-footer-message">You look nice today.</p>
+      <script>
+        (function () {
+          var phrases = [
+            "you look nice today.",
+            "have a nice day.",
+            "you're pretty cool.",
+            "thanks for stopping by.",
+            "good day!",
+            "cheers!",
+          ];
+          var el = document.getElementById("site-footer-message");
+          if (!el) return;
+          el.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+        })();
+      </script>
     </footer>
   {{ end }}
 </body>

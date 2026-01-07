@@ -18,7 +18,7 @@ ignoreFiles = ['^open-source/', '^me\\.md$', '^write/']
 
   [[menus.main]]
     name = 'phil'
-    pageRef = '/phil'
+    pageRef = '/philosophy'
     weight = 3
 
   [[menus.main]]
