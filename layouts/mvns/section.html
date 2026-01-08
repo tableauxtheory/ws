@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <div class="mx-auto w-full max-w-4xl px-4 py-6">
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+    {{ with .Content }}{{ . }}{{ end }}
+
+    {{ $works := .RegularPages }}
+    {{ if $works }}
+      <div class="mt-10 flex flex-col gap-6">
+        {{ range $works }}
+          {{ $img := .Params.image }}
+          <article class="not-prose flex flex-col gap-4 rounded-lg border border-transparent p-6 transition-all duration-150 hover:border-white">
+            <a href="{{ .RelPermalink }}" class="block">
+              <h2 class="text-xl font-semibold text-white">{{ .LinkTitle }}</h2>
+            </a>
+
+            {{ with $img }}
+              <a href="{{ $.RelPermalink }}" class="block">
+                <img src="{{ . }}" alt="" class="pixelated w-full h-auto rounded-md">
+              </a>
+            {{ end }}
+
+            {{ with .Params.store }}
+              <div class="flex flex-row flex-wrap gap-3">
+                {{ with .steam }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
+                {{ with .gog }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
+                {{ with .itch }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
+              </div>
+            {{ end }}
+
+            {{ with .Summary }}<p class="text-sm text-gray-300">{{ . | plainify | truncate 220 }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="text-gray-400 mt-8">No works yet.</p>
+    {{ end }}
+  </div>
+{{ end }}

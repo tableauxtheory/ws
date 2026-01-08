@@ -12,7 +12,7 @@
   
   {{- with index site.Menus $menuID }}
     <nav>
-      <ul class="flex flex-row flex-wrap list-none m-0 p-0 gap-4">
+      <ul class="flex flex-row flex-wrap justify-center list-none m-0 p-0 gap-4">
         {{- partial "inline/menu/walk.html" (dict "page" $page "menuID" $menuID "menuEntries" .) }}
       </ul>
     </nav>
@@ -33,11 +33,13 @@
       {{- $current := $page.RelPermalink }}
       {{- $hrefNorm := cond (eq $href "/") "/" (strings.TrimSuffix "/" $href) }}
       {{- $currentNorm := cond (eq $current "/") "/" (strings.TrimSuffix "/" $current) }}
+      {{- $hrefClean := index (split (index (split $hrefNorm "?") 0) "#") 0 }}
       {{- $isActiveByMenu := or ($page.IsMenuCurrent $menuID .) ($page.HasMenuCurrent $menuID .) }}
-      {{- $isActiveByURL := or (eq $currentNorm $hrefNorm) (and (ne $hrefNorm "/") (hasPrefix $currentNorm (printf "%s/" $hrefNorm))) }}
+      {{- $hasHref := and (ne $hrefClean "") (hasPrefix $hrefClean "/") }}
+      {{- $isActiveByURL := and $hasHref (or (eq $currentNorm $hrefClean) (and (ne $hrefClean "/") (hasPrefix $currentNorm (printf "%s/" $hrefClean)))) }}
       {{- $isActive := or $isActiveByMenu $isActiveByURL }}
       <li>
-        <a class="text-sm menu-link{{ if $isActive }} is-active{{ end }}"
+        <a class="text-sm menu-link{{ if $isActive }} is-active{{ end }}{{ if not $hasHref }} is-disabled{{ end }}"
           {{- range $k, $v := $attrs }}
             {{- with $v }}
               {{- printf " %s=%q" $k $v | safeHTMLAttr }}
