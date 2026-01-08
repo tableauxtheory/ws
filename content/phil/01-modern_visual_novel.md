@@ -10,6 +10,6 @@ These are the criteria for a piece of interactive fiction to be considered a "mo
 
 #1: Reading of text is the primary user action.
 
-#2: Obstacles branch rather than halt or reverse the user's progress.
+#2: Obstacles may branch branch but never halt or reverse the user's progress.
 
 #3: Rules 1 and 2 may, in exceptional cases, be broken if doing so provides clear narrative intent.
