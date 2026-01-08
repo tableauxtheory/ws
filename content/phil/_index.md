@@ -1,4 +1,4 @@
 +++
 title = ""
-aliases = ["/phil/"]
+aliases = ["/philosophy/"]
 +++
