@@ -6,4 +6,4 @@ date = 2026-01-06
   list = "local"
 +++
 
-To make video games literature.
+Make video games literature.

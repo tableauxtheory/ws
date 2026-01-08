@@ -29,7 +29,13 @@
           {{- $name = . }}
         {{- end }}
       {{- end }}
-      {{- $isActive := or ($page.IsMenuCurrent $menuID .) ($page.HasMenuCurrent $menuID .) }}
+      {{- $href := .URL }}
+      {{- $current := $page.RelPermalink }}
+      {{- $hrefNorm := cond (eq $href "/") "/" (strings.TrimSuffix "/" $href) }}
+      {{- $currentNorm := cond (eq $current "/") "/" (strings.TrimSuffix "/" $current) }}
+      {{- $isActiveByMenu := or ($page.IsMenuCurrent $menuID .) ($page.HasMenuCurrent $menuID .) }}
+      {{- $isActiveByURL := or (eq $currentNorm $hrefNorm) (and (ne $hrefNorm "/") (hasPrefix $currentNorm (printf "%s/" $hrefNorm))) }}
+      {{- $isActive := or $isActiveByMenu $isActiveByURL }}
       <li>
         <a class="text-sm menu-link{{ if $isActive }} is-active{{ end }}"
           {{- range $k, $v := $attrs }}

@@ -40,21 +40,20 @@ ul li::before {
   background-size: 100% 100%;
 }
 
-.menu-link {
-  color: rgba(255, 255, 255, 0.4);
+a.menu-link {
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
   text-decoration: none;
 }
 
-.menu-link:hover {
-  color: rgba(255, 255, 255, 1);
+a.menu-link:hover {
+  opacity: 0.85;
 }
 
-.menu-link.is-active {
-  color: rgba(255, 255, 255, 1);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+a.menu-link.is-active {
+  opacity: 1;
+  font-weight: 700;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.25);
 }
 
 .terms {
