@@ -13,13 +13,14 @@
   {{- with index site.Menus $menuID }}
     <nav>
       <ul class="flex flex-row flex-wrap list-none m-0 p-0 gap-4">
-        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+        {{- partial "inline/menu/walk.html" (dict "page" $page "menuID" $menuID "menuEntries" .) }}
       </ul>
     </nav>
   {{- end }}
   
   {{- define "_partials/inline/menu/walk.html" }}
     {{- $page := .page }}
+    {{- $menuID := .menuID }}
     {{- range .menuEntries }}
       {{- $attrs := dict "href" .URL }}
       {{- $name := .Name }}
@@ -28,8 +29,9 @@
           {{- $name = . }}
         {{- end }}
       {{- end }}
+      {{- $isActive := or ($page.IsMenuCurrent $menuID .) ($page.HasMenuCurrent $menuID .) }}
       <li>
-        <a class="text-sm"
+        <a class="text-sm menu-link{{ if $isActive }} is-active{{ end }}"
           {{- range $k, $v := $attrs }}
             {{- with $v }}
               {{- printf " %s=%q" $k $v | safeHTMLAttr }}
