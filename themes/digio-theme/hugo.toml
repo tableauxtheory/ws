@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = '˚₊‧꒰ა welcome to my digi-garden ໒꒱ ‧₊˚'
+
+[menus]
+  [[menus.main]]
+    name = 'home'
+    pageRef = '/'
+    weight = 1
+    [menus.main.params]
+      image = '/digigarden2025.png'
+
+  [[menus.main]]
+    name = 'log'
+    pageRef = '/log'
+    weight = 2
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
