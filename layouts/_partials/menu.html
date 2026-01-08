@@ -22,14 +22,17 @@
     {{- $page := .page }}
     {{- $menuID := .menuID }}
     {{- range .menuEntries }}
-      {{- $attrs := dict "href" .URL }}
+      {{- $href := .URL }}
+      {{- if hasPrefix $href "/" }}
+        {{- $href = relURL $href }}
+      {{- end }}
+      {{- $attrs := dict "href" $href }}
       {{- $name := .Name }}
       {{- with .Identifier }}
         {{- with T . }}
           {{- $name = . }}
         {{- end }}
       {{- end }}
-      {{- $href := .URL }}
       {{- $current := $page.RelPermalink }}
       {{- $hrefNorm := cond (eq $href "/") "/" (strings.TrimSuffix "/" $href) }}
       {{- $currentNorm := cond (eq $current "/") "/" (strings.TrimSuffix "/" $current) }}
