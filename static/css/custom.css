@@ -56,6 +56,10 @@ a.menu-link.is-active {
   text-shadow: 0 0 14px rgba(255, 255, 255, 0.25);
 }
 
+nav ul li {
+  padding-left: 0;
+}
+
 .pixel-frame {
   box-shadow: 0 0 0 1px #000, 0 0 0 2px #fff;
 }
