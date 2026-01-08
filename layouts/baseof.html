@@ -6,13 +6,11 @@
 <body>
   {{ $minimal := eq .Type "shop" }}
   <header>
-    {{ partial "header.html" . }}
-  </header>
-  {{ if not $minimal }}
-  <div class="flex justify-center">
+  <div class="flex justify-center mt-6">
     <img src="/border-home1.png" alt="border-home1" class="pixelated">
   </div>
-  {{ end }}
+    {{ partial "header.html" . }}
+  </header>
   <main>
     {{ if $minimal }}
       {{ block "main" . }}{{ end }}
@@ -88,9 +86,6 @@
     </div>
   {{ end }}
   {{ if not $minimal }}
-    <div class="flex justify-center">
-      <img src="/border-home1.png" alt="border-home1" class="pixelated">
-    </div>
     <footer>
       <p class="text-xs px-6 py-6" id="site-footer-message">You look nice today.</p>
       <script>
