@@ -3,6 +3,7 @@ title = 'Jon Blow'
 date = 2025-12-15
 draft = false
 tags = ['blog']
+aliases = ['/log/test/']
 listIcon = "/writing.png"
 teaser = "How does my philsophy contrast with Jonathan Blow's?"
 +++
@@ -16,4 +17,3 @@ I wish to use mechanical poetry to enhance a narrative, but about nine-times-out
 
 Aside:
 Out of context, this conclusion may imply that additional mediums are to be tacked on to the driver medium of dialogue. This is not the case at all! When I say "alternate mediums are therefore added only when necessary...", it is important to note that more often than not they are necessary! And furthermore, many standard design practices such as looping and recurring rules are more often than not (if not always) necessary to create a meaningful narrative.
-

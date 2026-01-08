@@ -56,7 +56,7 @@
           {{ end }}
           {{ if eq $icon "" }}
             {{ if in $post.Params.tags "write" }}{{ $icon = "/writing.png" }}{{ end }}
-            {{ if in $post.Params.tags "log" }}{{ $icon = "/writing.png" }}{{ end }}
+            {{ if or (in $post.Params.tags "blog") (in $post.Params.tags "log") }}{{ $icon = "/writing.png" }}{{ end }}
           {{ end }}
 
           {{/* teaser text preference */}}

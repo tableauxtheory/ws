@@ -2,7 +2,8 @@
 title = 'example2'
 date = 2023-01-15T09:00:00-07:00
 draft = false
-tags = ['log']
+tags = ['blog']
+aliases = ['/log/test2/']
 listIcon = "/contribute.png"
 teaser = "Some flavor text here..."
 +++

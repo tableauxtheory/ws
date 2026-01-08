@@ -22,7 +22,7 @@ ignoreFiles = ['^open-source/', '^me\\.md$', '^write/']
 
   [[menus.main]]
     name = 'blog'
-    pageRef = '/log'
+    pageRef = '/blog'
     weight = 4
 
   [[menus.main]]
