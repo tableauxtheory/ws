@@ -4,14 +4,14 @@
       <h1 class="py-2">{{ .Title }}</h1>
 
       {{ with .Params.image }}
-        <img src="{{ . }}" alt="" class="pixelated w-full h-auto rounded-md mb-6">
+        <img src="{{ . }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md mb-6">
       {{ end }}
 
       {{ with .Params.store }}
-        <div class="not-prose flex flex-row flex-wrap gap-3 mb-6">
-          {{ with .steam }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
-          {{ with .gog }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
-          {{ with .itch }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
+        <div class="not-prose flex flex-row flex-wrap justify-center gap-6 mb-6">
+          {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
+          {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
+          {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
         </div>
       {{ end }}
 

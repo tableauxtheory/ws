@@ -8,22 +8,20 @@
       <div class="mt-10 flex flex-col gap-6">
         {{ range $works }}
           {{ $img := .Params.image }}
-          <article class="not-prose flex flex-col gap-4 rounded-lg border border-transparent p-6 transition-all duration-150 hover:border-white">
+          <article class="not-prose flex flex-col gap-4 rounded-lg border border-transparent p-6">
             <a href="{{ .RelPermalink }}" class="block">
-              <h2 class="text-xl font-semibold text-white">{{ .LinkTitle }}</h2>
+              <h2 class="text-xl font-semibold text-white text-center">{{ .LinkTitle }}</h2>
             </a>
 
             {{ with $img }}
-              <a href="{{ $.RelPermalink }}" class="block">
-                <img src="{{ . }}" alt="" class="pixelated w-full h-auto rounded-md">
-              </a>
+              <img src="{{ . }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md">
             {{ end }}
 
             {{ with .Params.store }}
-              <div class="flex flex-row flex-wrap gap-3">
-                {{ with .steam }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
-                {{ with .gog }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
-                {{ with .itch }}<a class="menu-link opacity-100" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
+              <div class="flex flex-row flex-wrap justify-center gap-6">
+                {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
+                {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
+                {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
               </div>
             {{ end }}
 

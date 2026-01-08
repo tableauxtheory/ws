@@ -56,6 +56,22 @@ a.menu-link.is-active {
   text-shadow: 0 0 14px rgba(255, 255, 255, 0.25);
 }
 
+.pixel-frame {
+  box-shadow: 0 0 0 1px #000, 0 0 0 2px #fff;
+}
+
+.store-link {
+  font-size: 12px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.store-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .terms {
   display: flex;
   flex-wrap: wrap;
