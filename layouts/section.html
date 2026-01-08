@@ -1,6 +1,7 @@
 {{ define "main" }}
-<div class="mx-auto w-full max-w-4xl px-4 py-6">
-  <h1 class="text-3xl font-bold mb-8">{{ .Title }}</h1>
+<div class="w-full">
+  {{ $hasTitle := ne .Title "" }}
+  {{ with .Title }}<h1 class="text-3xl font-bold mb-4">{{ . }}</h1>{{ end }}
 
   {{ $posts := sort .RegularPages "Date" "desc" }}
 
@@ -28,7 +29,7 @@
   {{ $allItems = sort $allItems "sortDate" "desc" }}
 
   {{ if $allItems }}
-    <div class="flex flex-col gap-6 mt-8">
+    <div class="flex flex-col gap-6 {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
       {{ range $allItems }}
         {{ if eq .type "post" }}
           {{ $post := .data }}

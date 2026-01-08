@@ -1,27 +1,15 @@
 {{ define "main" }}
-{{ $p := .Params }}
-<div class="flex flex-col gap-4">
-	<div class="not-prose flex cursor-default flex-col space-y-4 rounded-lg border border-white p-4">
-		<img src="{{ or $p.portraitImage "/portrait.png" }}" alt="Portrait" class="pixelated pixel-portrait">
-		<div>
-			{{ with $p.introTitle }}<strong>{{ . }}</strong>{{ end }}
-			{{ with $p.introBody }}{{ . | markdownify }}{{ end }}
-		</div>
-	</div>
-	<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
-		<img src="{{ or $p.statusImage "/status.png" }}" alt="Status" class="self-start pixelated">
-		{{ with $p.statusText }}<div>{{ . | markdownify }}</div>{{ end }}
-	</div>
-	<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
-		<img src="{{ or $p.watchingImage "/watching.png" }}" alt="Watching" class="self-start pixelated">
-		{{ if or $p.watchingUrl $p.watchingText }}
-			<p class="underline">
-				{{ if $p.watchingUrl }}<a href="{{ $p.watchingUrl }}">{{ end }}
-				{{ or $p.watchingText "" }}
-				{{ if $p.watchingUrl }}</a>{{ end }}
-			</p>
-		{{ end }}
-	</div>
-</div>
-{{ .Content }}
+  <div class="min-h-[70vh] flex items-center justify-center px-6">
+    <div class="flex flex-col items-center justify-center gap-6">
+      <div class="text-4xl font-bold text-center">We're under construction :O</div>
+      <div class="not-prose flex flex-col items-center gap-3">
+        <div class="text-sm opacity-80">links for more done things:</div>
+        <div class="flex flex-row flex-wrap justify-center gap-6">
+          {{ with .Params.discordUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Discord</a>{{ end }}{{ end }}
+          {{ with .Params.redditUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">r/modernvisualnovels</a>{{ end }}{{ end }}
+          {{ with .Params.youtubeUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">YouTube</a>{{ end }}{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

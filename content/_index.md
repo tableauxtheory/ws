@@ -10,4 +10,8 @@ statusText = "A way to let everyone know what you're up to..."
 watchingImage = "/watching.png"
 watchingText = "How to create a Hugo theme from scratch — Berkay Çubuk // HugoConf 2023"
 watchingUrl = "https://www.youtube.com/watch?v=0WJ2lWNhqm8"
+
+discordUrl = "https://discord.gg/7tYCpnasP3"
+redditUrl = "https://www.reddit.com/r/modernvisualnovels/"
+youtubeUrl = "https://www.youtube.com/@TABLEAUX_THEORY"
 +++
