@@ -6,4 +6,4 @@ date = 2026-01-07
   list = "local"
 +++
 
-For Every pixel shown on screen, one is taken from the user's mind.
+For every pixel shown on screen, one is taken from the mind.
