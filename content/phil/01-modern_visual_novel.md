@@ -6,7 +6,7 @@ date = 2026-01-06
   list = "local"
 +++
 
-These are the criteria for something to be considered a "modern visual novel".
+These are the criteria for a piece of interactive fiction to be considered a "modern visual novel".
 
 #1: Reading of text is the primary user action.
 
