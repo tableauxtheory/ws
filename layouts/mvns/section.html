@@ -14,7 +14,13 @@
             </a>
 
             {{ with $img }}
-              <img src="{{ . }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md">
+              {{- $src := . -}}
+              {{- $srcBase := index (split (index (split $src "?") 0) "#") 0 -}}
+              {{- $staticPath := printf "static/%s" (strings.TrimPrefix "/" $srcBase) -}}
+              {{- if fileExists $staticPath -}}
+                {{- $src = printf "%s?v=%s" $srcBase (md5 (readFile $staticPath)) -}}
+              {{- end -}}
+              <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md">
             {{ end }}
 
             {{ with .Params.store }}

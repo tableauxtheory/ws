@@ -4,7 +4,13 @@
       <h1 class="py-2">{{ .Title }}</h1>
 
       {{ with .Params.image }}
-        <img src="{{ . }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md mb-6">
+        {{- $src := . -}}
+        {{- $srcBase := index (split (index (split $src "?") 0) "#") 0 -}}
+        {{- $staticPath := printf "static/%s" (strings.TrimPrefix "/" $srcBase) -}}
+        {{- if fileExists $staticPath -}}
+          {{- $src = printf "%s?v=%s" $srcBase (md5 (readFile $staticPath)) -}}
+        {{- end -}}
+        <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md mb-6">
       {{ end }}
 
       {{ with .Params.store }}
