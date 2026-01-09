@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="w-full">
+  {{ $hasTitle := ne .Title "" }}
+  {{ with .Title }}<h1 class="text-3xl font-bold mb-4">{{ . }}</h1>{{ end }}
+  {{ with .Content }}{{ . }}{{ end }}
+
+  {{ $posts := sort .RegularPages "Date" "desc" }}
+  {{ $externalLinks := .Params.externalLinks }}
+
+  {{ $allItems := slice }}
+  {{ range $posts }}
+    {{ $allItems = $allItems | append (dict "type" "post" "data" . "date" .Date "sortDate" .Date) }}
+  {{ end }}
+  {{ if $externalLinks }}
+    {{ range $externalLinks }}
+      {{ $parsedDate := time .date }}
+      {{ $displayDate := $parsedDate.Format "January 2, 2006" }}
+      {{ $allItems = $allItems | append (dict "type" "link" "data" . "date" $displayDate "sortDate" $parsedDate) }}
+    {{ end }}
+  {{ end }}
+
+  {{ $allItems = sort $allItems "sortDate" "desc" }}
+
+  {{ if $allItems }}
+    <div class="flex flex-col {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
+      {{ range $allItems }}
+        {{ if eq .type "post" }}
+          {{ $post := .data }}
+          {{ $teaser := $post.Params.teaser }}
+          {{ if not $teaser }}{{ $teaser = $post.Params.description }}{{ end }}
+          {{ if not $teaser }}{{ $teaser = $post.Summary }}{{ end }}
+
+          <a href="{{ $post.RelPermalink }}" class="blog-entry block">
+            <h2 class="blog-title text-lg">{{ $post.LinkTitle }}</h2>
+            {{ with $teaser }}
+              <p class="blog-teaser">
+                {{ . | plainify | truncate 180 }}
+              </p>
+            {{ end }}
+            <time class="blog-date">{{ $post.Date.Format "January 2, 2006" }}</time>
+          </a>
+        {{ else if eq .type "link" }}
+          {{ $link := .data }}
+          <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer" class="blog-entry block">
+            <h2 class="blog-title text-lg">{{ $link.title }}</h2>
+            {{ with $link.teaser }}
+              <p class="blog-teaser">
+                {{ . | plainify | truncate 180 }}
+              </p>
+            {{ end }}
+            <time class="blog-date">{{ .date }}</time>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="text-gray-400 mt-8">No posts or links found.</p>
+  {{ end }}
+</div>
+{{ end }}
