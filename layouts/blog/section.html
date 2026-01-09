@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="w-full">
   {{ $hasTitle := ne .Title "" }}
-  {{ with .Title }}<h1 class="text-3xl font-bold mb-4">{{ . }}</h1>{{ end }}
+  {{/* Intentionally omit the section H1 for a more minimal blog index */}}
   {{ with .Content }}{{ . }}{{ end }}
 
   {{ $posts := sort .RegularPages "Date" "desc" }}
