@@ -10,9 +10,7 @@
         {{ range $works }}
           {{ $img := .Params.image }}
           <article class="not-prose flex flex-col gap-4 rounded-lg border border-transparent p-6">
-            <a href="{{ .RelPermalink }}" class="block">
-              <h2 class="text-xl font-semibold text-white text-center">{{ .LinkTitle }}</h2>
-            </a>
+            <h2 class="text-xl font-semibold text-white text-center">{{ .LinkTitle }}</h2>
 
             {{ with $img }}
               {{- $src := . -}}
