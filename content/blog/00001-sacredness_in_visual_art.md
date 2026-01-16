@@ -19,7 +19,7 @@ There is, perhaps, a throughline from my initial inability to produce beautiful 
 
 ![Uncanny](/blog/00001-uncanny.png)
 
-Ok, ok. And there's probably a place for this in the market. However, where I question all of this is when I consider the full scope of my personal mission. Namely, to "declare that which is sacred, sacred again". And does this sort of imagery do this?
+Ok, ok. Where I question all of this is when I consider the full scope of my personal mission. Namely, to "declare that which is sacred, sacred again". And does this sort of imagery do this?
 
 I'd say no. I'd say no, but there's more to it. In one of the mental models I use for navigation of life, one must look at the world as a crucible of sorts. Refining and refining and refining. And yet, there's another element to a crucible: the addition of new materials. We must try new things to progress. Do not conflate "sacred" with "traditional"¹. When I state that I wish to "declare that which is sacred, sacred again", I do not mean to say that we got things 100% right at any particular era. Renaissance art, for example, is truly and undeniably beautiful, but there is a valid argument to be made that it is not the best style for every situation. For example, it has its limits in communication. If a piece is constrained by realism, we cannot emphasize particular qualities in a quickly readable manner. This, of course, is of great benefit for a painting, as it allows us to sit with it for longer periods of time, study it, and recognize details as we pass it for the umpteenth time. Beautiful.
 
