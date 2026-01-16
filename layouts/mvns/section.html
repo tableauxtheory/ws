@@ -5,6 +5,7 @@
     {{ with .Content }}{{ . }}{{ end }}
 
     {{ $works := .RegularPages }}
+    {{ if hugo.IsProduction }}{{ $works = where $works "Draft" false }}{{ end }}
     {{ if $works }}
       <div class="{{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }} flex flex-col gap-6">
         {{ range $works }}

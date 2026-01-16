@@ -5,7 +5,9 @@
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}" class="block mb-4">{{ $dateHuman }}</time>
-      {{ .Content }}
+      <div class="{{ if eq .Section "blog" }}blog-content{{ end }}">
+        {{ .Content }}
+      </div>
       <div class="mt-6">
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       </div>

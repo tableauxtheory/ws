@@ -4,7 +4,9 @@
   {{/* Intentionally omit the section H1 for a more minimal blog index */}}
   {{ with .Content }}{{ . }}{{ end }}
 
-  {{ $posts := sort .RegularPages "Date" "desc" }}
+  {{ $posts := .RegularPages }}
+  {{ if hugo.IsProduction }}{{ $posts = where $posts "Draft" false }}{{ end }}
+  {{ $posts = sort $posts "Date" "desc" }}
   {{ $externalLinks := .Params.externalLinks }}
 
   {{ $allItems := slice }}

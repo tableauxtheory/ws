@@ -155,3 +155,30 @@ nav ul li {
 .blog-entry:hover .blog-teaser {
   color: rgba(255, 255, 255, 0.75);
 }
+
+/* Blog post body images */
+.blog-content img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.blog-content figcaption a {
+  color: #60a5fa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-content figcaption a:hover {
+  color: #93c5fd;
+}

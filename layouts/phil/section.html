@@ -3,7 +3,9 @@
     <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
     {{ with .Content }}{{ . }}{{ end }}
 
-    {{ $entries := sort .RegularPages "File.BaseFileName" "asc" }}
+    {{ $entries := .RegularPages }}
+    {{ if hugo.IsProduction }}{{ $entries = where $entries "Draft" false }}{{ end }}
+    {{ $entries = sort $entries "File.BaseFileName" "asc" }}
     {{ if $entries }}
       <div class="mt-10 flex flex-col gap-12">
         {{ range $entries }}
