@@ -34,6 +34,8 @@ Kickstarter has also been a net success. Not directly, but indirectly. 4Gamer.ne
 
 Now, let's consider why the product's web presence may not be resonating so that we may pivot in the future. Again, I *do* believe that the web presence is correct for the product, so it is more innate to how much marketing potential *Everything I Know, and Everything I'm Ever Gonna Know* has. So in regards to this, I believe its three main flaws are in translation, visuals and subject matter.
 
+//TODO: Be sure that on both of these, you talk about how you will alleviate the problem in future endeavors.
+
 //TODO: Add translation failure notes. //Talk about response from other cultures being better than american.
 
 //TODO: Add visuals failure notes.
