@@ -10,7 +10,7 @@ teaser = "What I've been learning about marketing."
 
 Have you ever held onto a high bar and attempted to create momentum and swing from idle? It is so hard. There *is* a technique to it, but in reality, for most when starting, the best tactic is to flail wildly until you gain momentum by chance.
 
-//TODO: Add an illustration of gaining momentum from a high bar.
+![High Bar](/blog/00002-high_bar.png)
 
 This is where I'm at with marketing.
 
@@ -43,3 +43,17 @@ As for subject matter: the core of the story revolves around social implications
 Here is what I'd do instead: continue to rely heavily on aesthetics as a means of marketing, but also be considerate of how story scaffolding pairs with said aesthetic. They do not (necessarily) need to be directly aligned, but they should pair more intentionally than was done in *Everything I Know, and Everything I'm Ever Gonna Know*. I felt as though I had a great marketing handicap as I tried to avoid the true nature of the story. Again, this was the right choice for this product, but it would make my marketing life easier if I could use story scaffolding as a beat... Plus, if it is an interesting pairing with the aesthetic, a certain synergy will emerge.
 
 The work in progress story scaffolding of my next novel remains provocative, but is less delicate, allowing it to be used more easily used across marketing. "Enjoy your life working at a Korean coffee shop, and then go to hell." Yes, "go to hell" is provocative, but it is not delicate. I can throw that at people and it won't provoke the same vitriol that "social implications of fornication" does... Atleast, I suspect. Additionally, all this dances around with the current planned aesthetics rather than being completely unrelated as I did in *Everything I Know, and Everything I'm Ever Gonna Know*, in which the story and aesthetics were completely disjointed. My next product is actually visually set in the Korean countryside, and there is actually a depiction of hell. So the aesthetics actually *do* match the story scaffolding.
+
+And before we finish... I *do* want to discuss one last thing. My reluctance to self-evangelize my art.
+
+Up until recently, I had the strong belief that a product good enough would evangelize itself. In certain conditions, I continue to believe this. However, I can't help but admit that I do not fit these conditions. I believe the conditions that must be met for a great product to evangelize itself is for it to fit on a gradient from other great products.
+
+//TODO: Add gradient illustration.
+
+Perhaps more precisely, I believe a self-evangelizing product has to borrow about ~80% from the trends that are already popular and introduce ~20% new. *Everything I Know, and Everything I'm Ever Gonna Know* is, in my estimations, ~50% old and ~50% new, making the gradient too great to be naturally palettable by an audience with pre-formed expectations.
+
+//TODO: Add great gradient illustration.
+
+If the product is *this* different, but is still truly great, it requires evangelizing. Evangelizing both by word of mouth, and by the one who, theoretically, knows it best: the creator. We see this throughout history with such examples as Steve Jobs and his computer for artists, Thomas Edison, or, in a more modern example, Elon Musk.
+
+Again, this requires that a product be good if not great. If it is at this level of quality, no amount of evangelizing will help it survive in the long run. Yet, if one were to not evangelize a disruptive product at all, the greater public would simply find it strange and not know what to do with such a thing.
