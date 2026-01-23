@@ -48,11 +48,11 @@ And before we finish... I *do* want to discuss one last thing. My reluctance to 
 
 Up until recently, I had the strong belief that a product good enough would evangelize itself. In certain conditions, I continue to believe this. However, I can't help but admit that I do not fit these conditions. I believe the conditions that must be met for a great product to evangelize itself is for it to fit on a gradient from other great products.
 
-//TODO: Add gradient illustration.
+![20 Percent Incline](/blog/00002-incline_20_percent.png)
 
 Perhaps more precisely, I believe a self-evangelizing product has to borrow about ~80% from the trends that are already popular and introduce ~20% new. *Everything I Know, and Everything I'm Ever Gonna Know* is, in my estimations, ~50% old and ~50% new, making the gradient too great to be naturally palettable by an audience with pre-formed expectations.
 
-//TODO: Add great gradient illustration.
+![50 Percent Incline](/blog/00002-incline_50_percent.png)
 
 If the product is *this* different, but is still truly great, it requires evangelizing. Evangelizing both by word of mouth, and by the one who, theoretically, knows it best: the creator. We see this throughout history with such examples as Steve Jobs and his computer for artists, Thomas Edison, or, in a more modern example, Elon Musk.
 
