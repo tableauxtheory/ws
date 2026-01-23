@@ -1,7 +1,7 @@
 +++
 title = 'Marketing Learnings'
 date = 2026-01-23
-draft = true
+draft = false
 tags = ['blog']
 aliases = ['/log/test/']
 listIcon = "/writing.png"
@@ -32,25 +32,25 @@ For one, Steam generally *does* actively show product. Seemingly to the right au
 
 Kickstarter has also been a net success. Not directly — it is clear the campaign will not reach its goal — but indirectly. 4Gamer.net, a major Japanese gaming news outlet, covered the campaign, giving me additional eyes on the product as well as legitimacy which can be used at a later time. Here too, however, given the unlikelihood of success for the campaign, we see *Everything I Know, and Everything I'm Ever Gonna Know* failing to capture audiences through its general outward presence. An article was written on a major news site — a *good* article, at that — and yet, only ~50 wishlists were gained. I can't help but humble myself to recognize that there is likely a reason for this.
 
-Now, let's consider why the product's web presence may not be resonating in order that we may pivot in the future. Again, I *do* believe that the web presence is correct for the product, so it is more innate to how much marketing potential *Everything I Know, and Everything I'm Ever Gonna Know* has. So in regards to this, I believe its three main flaws are in localization, visuals and subject matter.
+Now, let's consider why the product's web presence may not be resonating in order that we may pivot in the future. Again, I *do* believe that the web presence is correct for the product, so it is more innate to how much marketing potential *Everything I Know, and Everything I'm Ever Gonna Know* has. So in regard to this, I believe its three main flaws are in localization, visuals and subject matter.
 
-In terms of visuals, honestly I believe my biggest failure was in deep knowledge of visual arts. So gesture, lighting, etc. I've alleviated both *this* and, what I'd consider a less big issue, though an issue nonetheless: the not fully defined style. There was more work to do, which is acceptable as this was my maiden voyage in modern visual novel art directing, but again, I believe I've solved this for my next project.
+In terms of visuals, honestly I believe my biggest failure was in my own lack of deep knowledge of the visual arts. So gesture, lighting, etc. I've alleviated both *this* and, what I'd consider a less big issue, though an issue nonetheless: the not fully defined style. There was more work to do, which is acceptable as this was my maiden voyage in modern visual novel art directing, but again, I believe I've solved this for my next project.
 
 The next major issue is in my lack of localization. Or, even real capacity for localization. As mentioned earlier, 4Gamer.net is the first news site to write an article on the product. American news sites have yet to acknowledge me. Of the 146 wishlists I have, ~50 of them are from Japan, and this is without a Japanese localization. It goes further than this, however, in that I've had direct messages from individuals asking for Russian localization, with my most non-United States, non-Asian site visits coming from the Russian Federation. All this to say, the *positive* interaction that I've had has mostly come out of other cultures. Perhaps they "get it" more? Similar works such as *Enjoy the Diner* do well elsewhere, so I suspect that the modern visual novel may be an easier sale in other cultures.
 
-As for subject matter: the core of the story revolves around social implications of fornication, which, understandably, is not particularly paletable to most audiences and is a bit hard to pitch. I was never really able to figure out how to market this appropriately. Partly because the revelation of this is a major plot point, and also because, well, it is a topic that should be handled with care.
+As for subject matter: the core of the story revolves around social implications of fornication, which, understandably, is not particularly palatable to most audiences and is a bit hard to pitch. I was never really able to figure out how to market this appropriately. Partly because the revelation of this is a major plot point, and also because, well, it is a topic that should be handled with care.
 
 Here is what I'd do instead: continue to rely heavily on aesthetics as a means of marketing, but also be considerate of how story scaffolding pairs with said aesthetic. They do not (necessarily) need to be directly aligned, but they should pair more intentionally than was done in *Everything I Know, and Everything I'm Ever Gonna Know*. I felt as though I had a great marketing handicap as I tried to avoid the true nature of the story. Again, this was the right choice for this product, but it would make my marketing life easier if I could use story scaffolding as a beat. Plus, if it is an interesting pairing with the aesthetic, a certain synergy will emerge.
 
-The work in progress story scaffolding of my next novel remains provocative, but is less delicate, allowing it to be more easily used across marketing. "Enjoy your life working at a Korean coffee shop, and then go to hell." Yes, "go to hell" is provocative, but it is not delicate. I can throw that at people and it won't provoke the same vitriol that "social implications of fornication" does — At least, I suspect. Additionally, all this dances around with the current planned aesthetics rather than being completely unrelated as I did in *Everything I Know, and Everything I'm Ever Gonna Know*, in which the story and aesthetics were completely disjointed. My next product is actually visually set in the Korean countryside, and there is actually a depiction of hell. So the aesthetics actually *do* match the story scaffolding.
+The work in progress story scaffolding of my next novel remains provocative, but is less delicate, allowing it to be more easily used across marketing. "Enjoy your life working at a Korean coffee shop, and then go to hell." Yes, "go to hell" is provocative, but it is not delicate. I can throw that at people and it won't provoke the same vitriol that "social implications of fornication" does — at least, I suspect. Additionally, all this dances around with the current planned aesthetics rather than being completely unrelated as I did in *Everything I Know, and Everything I'm Ever Gonna Know*, in which the story and aesthetics were completely disjointed. My next product is actually visually set in the Korean countryside, and there is actually a depiction of hell. So the aesthetics actually *do* match the story scaffolding.
 
 And before we finish, I *do* want to discuss one last thing. My reluctance to self-evangelize my art.
 
-Up until recently, I had the strong belief that a product good enough would evangelize itself. In certain conditions, I continue to believe this. However, I can't help but admit that I do not fit these conditions. I believe the conditions that must be met for a great product to evangelize itself is for it to fit on a gradient from other great products.
+Up until recently, I had the strong belief that a product good enough would evangelize itself. In certain conditions, I continue to believe this. However, I can't help but admit that I do not fit these conditions. I believe the conditions that must be met for a great product to evangelize itself are for it to fit on a gradient from other great products.
 
 ![20 Percent Incline](/blog/00002-incline_20_percent.png)
 
-Perhaps more precisely, I believe a self-evangelizing product has to borrow about ~80% from the trends that are already popular and introduce ~20% new. *Everything I Know, and Everything I'm Ever Gonna Know* is, in my estimations, ~50% old and ~50% new, making the gradient too great to be naturally paletable by an audience with pre-formed expectations.
+Perhaps more precisely, I believe a self-evangelizing product has to borrow about ~80% from the trends that are already popular and introduce ~20% new. *Everything I Know, and Everything I'm Ever Gonna Know* is, in my estimations, ~50% old and ~50% new, making the gradient too great to be naturally palatable by an audience with pre-formed expectations.
 
 ![50 Percent Incline](/blog/00002-incline_50_percent.png)
 
@@ -59,4 +59,5 @@ If the product is *this* different, but is still truly great, it requires evange
 Again, this requires that a product be good if not great. If it is at this level of quality, no amount of evangelizing will help it survive in the long run. Yet, if one were to not evangelize a disruptive product at all, the greater public would simply find it strange and not know what to do with such a thing.
 
 ---
+
 ¹Steam is actually telling me 32.9% for its percentage, but that math doesn't add up, so I may be missing something.
