@@ -3,8 +3,6 @@ title = 'Marketing Learnings'
 date = 2026-01-23
 draft = false
 tags = ['blog']
-aliases = ['/log/test/']
-listIcon = "/writing.png"
 teaser = "What I've been learning about marketing."
 +++
 

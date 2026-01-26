@@ -3,8 +3,6 @@ title = 'Jon Blow'
 date = 2025-12-15
 draft = false
 tags = ['blog']
-aliases = ['/log/test/']
-listIcon = "/writing.png"
 teaser = "How does my philosophy contrast with Jonathan Blow's?"
 +++
 

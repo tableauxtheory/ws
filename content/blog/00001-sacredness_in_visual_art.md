@@ -3,8 +3,6 @@ title = 'Sacredness in Visual Art'
 date = 2026-01-16
 draft = false
 tags = ['blog']
-aliases = ['/log/test/']
-listIcon = "/writing.png"
 teaser = "How I think about \"sacredness\" in visuals for modern visual novels."
 +++
 
