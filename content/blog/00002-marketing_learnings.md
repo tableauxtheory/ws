@@ -54,7 +54,7 @@ Perhaps more precisely, I believe a self-evangelizing product has to borrow abou
 
 If the product is *this* different, but is still truly great, it requires evangelizing. Evangelizing both by word of mouth, and by the one who, theoretically, knows it best: the creator. We see this throughout history with such examples as Steve Jobs and his computer for artists, Thomas Edison, or, in a more modern example, Elon Musk.
 
-Again, this requires that a product be good if not great. If it is at this level of quality, no amount of evangelizing will help it survive in the long run. Yet, if one were to not evangelize a disruptive product at all, the greater public would simply find it strange and not know what to do with such a thing.
+Again, this requires that a product be good if not great. If it is not at this level of quality, no amount of evangelizing will help it survive in the long run. Yet, if one were to not evangelize a disruptive product at all, the greater public would simply find it strange and not know what to do with such a thing.
 
 ---
 
