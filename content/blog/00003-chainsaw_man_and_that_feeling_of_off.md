@@ -14,6 +14,7 @@ See a trend in these media? Whether directly or indirectly they point to the spi
 
 Correlation, in that, use of Christian imagery indicates a proposed mission. Namely, the attempt to "point towards God". If done correctly, we receive what I have, in the past, called a "feeling of off".
 
+//TODO: Make sure this is embedded correctly.
 [!Seinfeld Clip](https://youtube.com/clip/Ugkx7o_EATWQPZOWutc5Mq5Xtj9U4mdo8hYH?si=eYbWZxyPrrGN_23w)
 
 In my research and practice, this "feeling of off" is resultant of an extreme use of "peculiar" causing a feeling of "right" more right than regular right. Jerry uses "wrong" in place of "peculiar", but I fear that "wrong" comes with the baggage of a negative moral polarity, which is important to avoid as we progress through this blog.
