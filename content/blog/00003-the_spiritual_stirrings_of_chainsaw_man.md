@@ -19,14 +19,25 @@ Correlation, in that, use of Christian imagery indicates a proposed mission. Nam
 
 In my research and practice, this "feeling of off" is resultant of an extreme use of "peculiar" causing a feeling of "right" — more right than regular right. Jerry uses "wrong" in place of "peculiar", but I fear that "wrong" comes with the baggage of a negative moral polarity, which is important to avoid as we progress through this blog.
 
-So why did *Chainsaw Man* catch my eye? It was this feeling of off, largely nailed in the intro theme aswell as the outros, but, unfortunately, not consistently held during the show's actual runtime. It is not fully absent from the show, leaving me overall not regretful to have watched it. Another piece of media that attempts a spiritual stirring via this avenue is a win in my book.
+So why did *Chainsaw Man* catch my eye? It was this feeling of off, largely nailed in the intro theme aswell as the outros, but, unfortunately, not consistently held during the show's actual runtime. It is not fully absent from the show, leaving me overall not regretful to have watched it — another piece of media that attempts a spiritual stirring via this avenue is a win in my book.
 
-Before we get to the show, let's look at the theme to see what causes this spiritual stirring from the avenue of off-ness. When I use the term "off", I suspect the reader expects one of two things. One, that of weird ethical or sexual distortions shown in the beach shot in which we see a bikini clad woman in an erotic pose and a man on all fours being led by a woman by means of a dog collar. The second is media rule-breaking, best represented in the same shot in which we zoom in on the collar ordeal, showing it at lower resolution. Neither of these is quite what I mean.
+Before we get to the show, let's look at the intro to see what causes this spiritual stirring from the avenue of off-ness. When I use the term "off", I suspect the reader expects one of two things. One, that of weird ethical or sexual distortions shown in the beach shot in which we see a bikini clad woman in an erotic pose and a man on all fours being led by a woman by means of a dog collar. The second is media rule-breaking, best represented in the same shot in which we zoom in on the collar ordeal, showing it at lower resolution. Neither of these is quite what I mean.
 
 That's not to say that they don't play into the effect. Rapid succession of narratively consistent provocative imagery does, perhaps, lower one's guard for a spiritual stirring, but it seems not to produce the correct feeling on its own.
 
-//TODO: Need to continue on to explore what *is* causing this...
+And, you know, as I consider, perhaps they *do* play into the spiritual stirring somewhat. My problem here is that they veer past "peculiar" directly into "explicit". The areas, instead, that shine most is in the offness are more in the silly dance shared between Denji and Power that is chosen to conclude the otherwise mostly otherworldly denouement. Or perhaps the jump cuts during the movie watching scene, specifically on the eyepatch girl's posing, which are intentionally imperfect but communicate information none-the-less. Or the movement in on Denji in the *The Big Labowski* inspired bowling scene, in which, frames are repeated in a rather odd and rhythmic manner (Masaaki Yuasa is a master of this particular technique).
+
+All this to say, I don't actually know *what* exactly causes this type of spiritual stirring, other than something being so peculiar that it becomes more right than right, but not so explicitly peculiar that it reaches the point of absurdism. It is this odd balancing act, however, that I find particularly beautiful.
+
+Now, if we look at the show itself, we, unfortunately, find more typical Shonen "hype" than "off-ness". Not bad, necessarily, just not what I'd expected. Though, there are still some solid moments, such as Himeno's character as a whole, but particularly her death. Yes, from a plot standpoint, we have something very clever in creating an arc for the viewer to anticipate (the pact she and Denji make to help eachother get with their romantic interests) before brutally taking it away via her death,¹ yet, while this is excellent plotting, it would not really achieve this feeling of "off" on its own. What really pushes it into this realm is the animation that occurs during the loss of her bodyparts. They just... Vanish. A slight clothing rustling plays rather than anything ceremonious, as one would expect. It is here that we find our off-ness.²
+
+//TODO: Also analyze the Kobeni chase scene.
 
 Now, earlier I mentioned that I'd rather say that something is so "peculiar" that circles around and becomes right again than something being "wrong", as "wrong" carries with it the baggage of negative polarity. I want to clarify this.
 
 I strongly believe that this peculiarity method of spiritual stirring can point a viewer to Heaven *or* Hell, and therefore it is on the shoulders of the artist to be aware of what they intend. I do not believe it is in the artist's control how the user responds, and I believe that God will use it for His plans regardless, but it *is* in the artist's best interest to be intentional.
+
+---
+
+¹On this, it is also neat that her endearing flaws, which brought the viewer closer to her personally aswell, were also made known very recently. Very smart.
+²I can't help but also mention this unceremoniousness ties into the meaninglessness of her death... That she had to give her entire body to lose to another who only gives one fingernail. Absolutely brilliant, if not soul-crushing. This power leveling is unfortunately discarded later on for some reason?
