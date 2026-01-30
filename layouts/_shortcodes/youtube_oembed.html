@@ -1,0 +1,36 @@
+{{- $url := "" -}}
+{{- with .Get "url" -}}
+  {{- $url = . -}}
+{{- else -}}
+  {{- with .Get 0 -}}
+    {{- $url = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $url -}}
+  {{- errorf "youtube_oembed shortcode requires a URL (positional or url=)" -}}
+{{- end -}}
+
+{{- $endpoint := printf "https://www.youtube.com/oembed?format=json&url=%s" ($url | urlquery) -}}
+{{- $remote := try (resources.GetRemote $endpoint) -}}
+
+{{- if or $remote.Err (not $remote.Value) -}}
+  <p><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+{{- else -}}
+  {{- $json := try ($remote.Value | transform.Unmarshal) -}}
+  {{- if or $json.Err (not $json.Value) -}}
+    <p><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+  {{- else -}}
+    {{- $html := "" -}}
+    {{- with $json.Value -}}
+      {{- $html = (index . "html") | default "" -}}
+    {{- end -}}
+    {{- if not $html -}}
+      <p><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+    {{- else -}}
+      <div class="video-embed">
+        {{- $html | safeHTML -}}
+      </div>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

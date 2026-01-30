@@ -1,9 +1,9 @@
 +++
-title = 'Marketing Learnings'
-date = 2026-01-31
+title = 'The Spiritual Stirrings of Chainsaw Man'
+date = 2026-01-30
 draft = true
 tags = ['blog']
-teaser = "The Spiritual Stirrings of Chainsaw Man."
+teaser = "I watched a show."
 +++
 
 Note: This is not a review of *Chainsaw Man*.
@@ -14,10 +14,11 @@ See a trend in these media? Whether directly or indirectly they point to the spi
 
 Correlation, in that, use of Christian imagery indicates a proposed mission. Namely, the attempt to "point towards the spiritual". If done correctly, we receive what I have, in the past, called a "feeling of off". This feeling of off, I believe, is one avenue to "spiritual stirring".
 
-//TODO: Make sure this is embedded correctly.
-[!Seinfeld Clip](https://youtube.com/clip/Ugkx7o_EATWQPZOWutc5Mq5Xtj9U4mdo8hYH?si=eYbWZxyPrrGN_23w)
 
-In my research and practice, this "feeling of off" is resultant of an extreme use of "peculiar" causing a feeling of "right" — more right than regular right. Jerry uses "wrong" in place of "peculiar", but I fear that "wrong" comes with the baggage of a negative moral polarity, which is important to avoid as we progress through this blog.
+In my research and practice, this "feeling of off" is resultant of an extreme use of "peculiar" causing a feeling of "right" — more right than regular right.
+{{< youtube_oembed "https://youtu.be/itWxXyCfW5s?si=OX0aAOI6T7EhQjTT&t=270" >}}
+
+(Jerry uses "wrong" in place of "peculiar", but I fear that "wrong" comes with the baggage of a negative moral polarity, which is important to avoid as we progress through this blog.)
 
 So why did *Chainsaw Man* catch my eye? It was this feeling of off, largely nailed in the intro theme aswell as the outros, but, unfortunately, not consistently held during the show's actual runtime. It is not fully absent from the show, leaving me overall not regretful to have watched it — another piece of media that attempts a spiritual stirring via this avenue is a win in my book.
 

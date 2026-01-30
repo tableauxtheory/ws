@@ -182,3 +182,18 @@ nav ul li {
 .blog-content figcaption a:hover {
   color: #93c5fd;
 }
+
+/* Video embeds (e.g., via youtube_oembed shortcode) */
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
