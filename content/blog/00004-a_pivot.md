@@ -18,9 +18,13 @@ With this in mind, I intend to cancel the project — the one about the Korean c
 
 For instance, I prefer Fujimoto's short story anime collection over the "Chainsaw Man" one. I also quite love the short story of Gogol's "The Nose". While I don't love the experience of reading it, "The Handsomest Drowned Man in The World" is a short story that's metaphor has been generally useful in my mental web.²
 
-//TODO: Continue on thoughts about short stories.
+So why do I like these stories so much, while I haven't enjoyed shorts in the past? One is my more recent distaste for immersion, which more often requires living with something for a while, but let's ignore this. What I think each of these stories does an excellent job of two things.
+1. They are *character* first rather than lore or grand-scale plotting, which is the focus of many of the sci-fi or horror short stories I've tried to read. To be fair, my preference in every story is that of character focused.
+2. They choose an idea that is "new" and worth exploring, but is small enough that it can be comprehensively explored by the end of the story. If a short story chooses a concept that is too grand, we never actually have time to get to the extents of the conceptual boundary. The extents, I believe, are where we find the most interesting ideas.
 
-//TODO: Wrap things around to discuss what this "pivot", from the title, is.
+So here's where I wish to pivot my career.
+
+For the next so often, or, until I build up savings enough to justify a grander tale, I would like to focus on smaller productions. Productions that take, at max, 3 months to complete in full. This would have been unreasonable had I not completed *Everything I Know, and Everything I'm Ever Gonna Know*, but since the project's completion I've developed processes in which will allow me to turn around productions more quickly. So much time spent on this previous project was simply discovering how to competently create a project without the use of an engine, as well as porting and publishing. Over the past couple of months, I've been streamlining the methods by which I do these things, and hopefully I am getting close to turning them into non-factors (or atleast as minimal of factors as possible). Yes, I also suspect that the projects themselves will be smaller in development scope, but I do suspect some of this will not be noticed as I have a better understanding on how to get a better "bang for my buck" in development choices.
 
 ---
 
