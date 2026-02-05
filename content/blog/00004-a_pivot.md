@@ -6,7 +6,7 @@ tags = ['blog']
 teaser = "What I'll do next."
 +++
 
-I'm continuing to build a small internet presence. Nothing notable, to most, but enough for me to get a bit of feedback on what works and what doesn't.
+I'm continuing to build a small internet presence. Nothing notable to most, but enough for me to get a bit of feedback on what works and what doesn't.
 
 And this feedback is huge for me and my sanity. I want (see: "need") to make this a career, so understanding what works for an audience is important. Yes, sticking to truth in what I believe to be "good" is important, and I'm not leaving said area, but it *is* an area that covers a lot of space. Therefore, I think it best to pick somewhere within this "good" area people respond to, and then perhaps, later on, once I have a following that trusts me, lead them on over into more unexplored places within the "good" area.
 
@@ -28,5 +28,5 @@ For the next while, or, until I build up savings enough to justify a grander tal
 
 ---
 
-¹I am, by the by, very uneasy about doing the YouTube video element of this. I wish I could just leave all this to blog posts, but, given what will be seen in the rest of this article, the content has to actually be *seen*, and this just won't happen if I simply post on my personal website. I've tried other text-based blogging sites such as Medium, but there was seemingly no organic traction via their algorithm. If anyone knows how to gain traction, reach out please. For now, it seems my only choice is to read these text-based articles on YouTube to gain response.
-²"Mental web", I'm sure, is interpretable by the reader, but by all means I'm just talking about the interconnected ideas that make up my philosophy.
+¹I am, by the by, very uneasy about doing the YouTube video element of this. I wish I could just leave all this to blog posts, but, given what will be seen in the rest of this article, the content has to actually be *seen*, and this just won't happen if I simply post on my personal website. I've tried other text-based blogging sites such as Medium, but there was seemingly no organic traction via its algorithm. If anyone knows how to gain traction, reach out please. For now, it seems my only choice is to read these text-based articles on YouTube to gain response.
+²"Mental web", I'm sure, is interpretable by the reader, but by all means, I'm just talking about the interconnected ideas that make up my philosophy.
