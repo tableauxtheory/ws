@@ -1,7 +1,7 @@
 +++
 title = 'A Pivot'
 date = 2026-02-06
-draft = true
+draft = false
 tags = ['blog']
 teaser = "What I'll do next."
 +++
