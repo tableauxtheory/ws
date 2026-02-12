@@ -6,64 +6,42 @@ tags = ['blog']
 teaser = "It's an interactive medium!"
 +++
 
-NOTE: This is not structured like a normal blog, instead like a problem solving session. It may not be as easy to read, and may rather sound inconsistent or like rambling at points, but I still think it is useful to make public (for some reason).
+Serializated stories don't appeal to me. Their structure is "watered down". Short stories have a similar problem in that their structure suffers from their size, just in the reverse direction. They are so small, that it is hard to find enough detail to be interesting.
 
-I struggle to enjoy serialized stories. This is because of their "watering down" of what I find so interesting in mid-sized stories. That is to say, structure. Short stories often struggle in structure because there is just not enough to (without great turmoil) structure something interestingly. In expansive serialization, however, it is too big for formation (outside of interweaved arcs) to be developed by the writer — and even if it could, it is not realistic for the viewer to grasp it in the same way that would be done in a piece with a more limited scope.
+All this to say, "structure" is a major love of mine in story.
 
-That's not to say this more homogenized structure is *bad*, just that it is antithetical to what I enjoy. I find structure to be one of the areas I find the most joy in my media, and one of the reasons I've become disillusioned with interactive media in the past years. Yes, there have been exceptions — *Breath of the Wild* when it released is an example — but they are far and few between. 
+Interactive media currently struggles in structure.
 
-Part of the reason for this, I suspect, is that we just don't have a good framework for thinking about this structure.
+This can only be alleviated by a framework with its own jargon. For my studio, I've spent an absurd amount of time considering and theorizing the look of this. I am nearing a "90% solution" — this is one of those matters that a 100% solution is never discovered — but there are still areas I am buffering out.
 
-Now, I've alleviated this for my studio in some respects, but that's not what this particular article is about. Instead, it is about a particular strand of struggle that I have found both in the development of *Everything I Know, and Everything I'm Ever Gonna Know* as well as the product I am currently in pre-production for. That is, the non-linearity that results when creating interesting structures in Modern Visual Novels.
+Namely, the branching paradox. 
 
-Instead of solve it only for this next project, wouldn't it be beneficial to talk about it here and solve it on a more philisophical level?
+As a creator, I wish to present stories that take advantage of the medium. I hope the story and the interactivity to be inseperable. This, however, seemingly creates a paradox:
+1. If a project is non-linear, this means that content will be missed on a single run.
+2. In a clean story, if any element is removed, the story is fundementally changed.
 
-As a creator, I wish to create stories that take advantage of the medium. I need the story and the interactivity to be clearly intended in their entertwining. This, however, brings me to the problem I am currently facing. Here are the facts:
-1. If something is non-linear, that means that there is content that may be missed.
-2. A clean story has no superfluous elements.
+This paradox, at first glance, seems inpenatrable. If pieces are missed, but all pieces are required for the story to be understood, doesn't this mean it is an impossible problem?
 
-Do you see the problem? Quite the conflict between these facts. It would be worth noting that I do, in fact, wish to write clean stories. Usually interactive media creators decide between one or the other, non-linearity or cleanliness, but I want both.
+If you were to think this way, you're not alone. When I consider how most works solve this, I notice that either rule #1 or rule #2 is tossed away. Either no, or minimal, content is missed, OR much content may be missed, but it is ancillary to the main narrative. Similar in how television used to be structured where, yes, the characters remain, but if any individual episode was missed, the consumer would still receive a complete story. Nothing was essential.
 
-In order to figure out a logical solution to allow for both, I believe the best first tactic is to start to understand each statement a little better. Statement 1 seems to have very little give. The only space I see some possibility for movement is in what we mean by "missed". This, of course, means that it may be "missed" on the first readthrough. It is, of course, possible to not "miss" anything through multiple readthroughs, but in requiring multiple readthroughs and expecting the user to fully understand the mechanical underpinnings of the novel, we vaguely contradict, in a sort of meta way, the modern visual novel rule #2 in that there are obstacles for progression if we wish to consume the "real" story.¹
+But I don't want to do either of these.
 
-Statement 2 has some flexibility for non-surface level interpretation. "Superfluous" does not mean that a story does not feel "complete" if an element is removed. It simply means that, with each element, the web of the grander story structure is modified.
+Instead, let's break down the rules and see where there is flex.
 
-To further clarify what I want to avoid, let's talk about the path of least resistence for this. That is, self-contained sub-stories (e.g. sidequests) that act in the same manner as, say, a sitcom. Keep the same characters, change the story. The primary elements of this sub-story, however, are ancillary and unconnected to the grander plot, though minor beats may relate to the progression of the characters involved. In sitcoms, they alleviate this by interweaving the grand plot beats into the sub-story rather than just general character progression. This would be a nice advancement in interactive media, though it would cause the same problems that going the full "no superfluous elements" direction would (the necessity that they are not missed), so we might as well go the full way.
+For #1, there is little flex. The only element that could, in theory, be useful to us is that it specifies that content is only necessarily missed if the user does a single run. This implies that on multiple runs, the user could get the full story. Unfortunately, however, it seems that this will not work for me for a couple reasons.
 
-What we know from our dissection is that:
-1. Even if all content cannot be seen in a single readthrough, multiple readthroughs may occur.
-2. Just because a beat missing in a clean story means that the story is fundamentally changed, this does not mean it is not a complete story without the beat.
+First, in a way, the variability becomes mute in a way. If the user is expected to see everything on offer, are the choices real?  It becomes non-linear only in the way that a non-linear film is "non-linear". The only *real* choice is what order the user sees the elements in. Why would I want to give them control over this!? I know the story better, I spend an egregious amount of time learning how to order these things, and now I'm giving it to someone who has neither the context and the experience to lay things out correctly? I'm unloading my job on to someone with little to no expertise on the matter. Doesn't seem very nice.
 
-So, clearly, the solution is to ensure that if optional elements are removed, the story still feels complete, but if they are added in, the story is fundementally changed.²
+Additionally, it is counter to the spirit of Modern Visual Novel rule #2, which states "obstacles must branch rather than halt nor reverse the user's progress." Yes, technically we're branching, yet important "progress" is being halted by the branches themselves. This is no good.
 
-So we're solved!?
+So, not much flex for #1 on its own... So let's look at #2. This is where we find some mobility, I think. Namely in that it doesn't say anything about needing every element to give the user a complete story, instead that each new element fundementally changes said complete story.
 
-Well, there's one more element that I want to bring in before we're done. Namely, the completionist desires of consumers of interactive media.
+This is to say, I believe the best tactic is to make it so that the user is forced on a readthrough to recieve a full story — a story that the author would be satisfied leaving the user with if they decide to never come back. A "closed loop". However, if the user does decide to come back, and finds new elements through branching, the complete story that they received is fundementally not the same as it was the first time they saw it. The new elements must become part of the equation for what the story is "saying".¹
 
-In the current novel that I'm working on, there is a structure similar to the "social links" seen in the *Persona* entries. Given the way it is setup in those works, it is undavoidable that the user feels the desire to complete the link in order to "close the loop" in their head. It is a predatory tactic that I find harmful to both the art and the consumers.³
-
-In my system, alot of the underlying logic persists, but I don't want the user to feel this intense desire to "close the loop" or see numbers go up. I want them to want to explore and understand the world and characters without that artificial sense of obligation. So how do I do this?
-
-Given this, it isn't *what* I am to do, it is what I am *not* to do. I simply do not want to show the progression information. Leave it obscured. Be ok with bizarre rules for how paths are found. If a user does not know that a path exists, they will not be bothered by not completing it. Therefore, we will not use this artificial "close the loop" design.
-
-This raises another question: Do I, then, want save states? Or should I require that the user always start from the beginning and accept what is given to them? If I'm being honest, I think it is the latter. I built a whole system for more complex save slots, but now I'm becoming convinced that the other structure allows for more interesting ideas. This implies that "completion" is not the point, and that if you finished the novel, you got "the experience" that I, as the author, wanted to give you. It implies a constant stream forward...
-
-Yes, obviously if I present things as choices, the user will want to go back and see every branch. However, if I *do not* present the choices, and instead let the events wash over the user and have them make decisions without even realizing that they are making decisions, then the "FOMO" effect should be alleviated.
-
-So thus *another* question is raised: If the user does not know that they are making decisions, why even include them? All the various paths become expensive to develop. Wouldn't it make sense to just have one path and put all your resources into it?
-
-I'll answer this in two ways, with the first being focused on my desire for low-resistance interactivity. One of the best experiences I've had in interactive media was with *Fear and Hunger: Termina** at the start of which, every move I made seemed to allow me to do what I wanted to do. What's more, the result of said interactions were utterly interesting. It felt like time just moved forward, regardless of what I chose. Not just systemically, as in many open worlds, but the actual authored story. This is the feeling I want to evoke. Not the feeling of complexity of choice, but instead low resistence branching progression due to unexplained choices. It just happens. You just do things, and the story progresses accordingly. This is how it happens in life, isn't it? If media abstracts life in a consumable manner, why not here aswell?⁴
-
-Once again: there is a flow, and you influence it, but you don't necessarily do so with any sort of great intention.
-
-The second way to answer this has to do with re-readability. The first readthrough, the user does not really make any choices, since they don't have the understanding to recognize where they are making choices. If, however, they choose to readthrough again, they may or may not try different things, but if they do, they'll notice some flexibility in the story. My hope, however, is not for the user to desire to see everything in particular, but instead to simply enjoy the experimentation and flexibility. I have no real desire for true tree-like branching. Instead, I simply enjoy flexibility to discover new elements of a single story.⁵
-
-My desire, which of course will influence the design, is for the user to choose to readthrough again, not exclusively because they want to see different paths, but instead to re-engage with the story generally, similar to rewatching of a film. In theory, I'd love a tool ancillary to the main program that would allow for a "bookmark" of the mvn, but I wouldn't want this shipped with the products themselves. Instead, this would be a "study" tool, similar to someone who watches a film, pauses and rewinds. It is not the optimal experience, but it is fruitful for understanding. Setting things up like this, the implication would remain that the goal is not to find alternate paths, but an option would still be available for those who want to understand or reread certain sections... Need to continue to think about this. I'd like it for both first AND third party modern visual novels.
+And here, our solution is found.²
 
 ---
 
-¹Well, it more messes with the spirit of the law, rather than the law itself. Of course, this *is* branching, so it is allowed, but elements that are essential for a complete story are locked behind meta-obstacles. This, thus, breaks said spirit of the law.
-²As a pleasant but unintentional result of this article, another a solution to another long-time problem I've been chewing on has been solved. Namely, "rewarding" users for going down different paths. I've always thought that there needed to be some sort of a clamp at the very end of a novel, but when I look at it this way, with optional elements being directly tied to the main story, this clamping no longer feels necessary.
-³To be clear, I don't believe that the *Persona* team has negative intent behind this.
-⁴Another question arrives in whether or not this is implying that flexibility is the goal of this sort of novel. If that is the case, why not use some generative ai style dialogue? I could write another blog post — or a series of blog posts — on this! But to keep it short, simply remember that the variable content must still fundamentally effect story. Not just add flavor, but fundementally effect. Generative AI could be great for flavoring, but it is unlikely that, in its current path, ever reach the ability to make the sorts of detail oriented changes needed to leverage the story properly. In fact, it is precisely in its infinite flexibility that it loses its power to make small decisions that recontextualize the entirety of the plot, perhaps in a similar manner as a serial loses its ability create meaningful structure due to its vastness, but on an infinitely grander scale.
-⁵I do suspect I *will* have choices that the user acknowledges are decisions, but these are more likely to be rare, and done with the understanding that an "open loop" is created. Having even a single traditional branch should be done with intent. I can't currently imagine wanting more than a single true branch in any novel.
+¹I should do a blog about this sometime, but I view all human communication as "mantle" and "core", with the "mantle" being what is literally said and the "core" being the implication. All story elements in this situation should effect the "core"... I don't really care about the "mantle" for reasons other than aesthetics... Whether or not I should, however, is a serious question.
+²It does pose the question whether or not the spirit of the MVN rule #2 is still broken. The reason I say *no* to this is that the loop becomes closed, so "progress" is not gained through the navigation of these branches.
+
