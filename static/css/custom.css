@@ -162,6 +162,31 @@ nav ul li {
   margin-right: auto;
 }
 
+.blog-content ol {
+  list-style: decimal;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.blog-content ol li {
+  padding-left: 0.25rem;
+  margin: 0.25rem 0;
+}
+
+.blog-content ol li::marker {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.blog-content ol ol {
+  list-style: lower-alpha;
+  margin-top: 0.5rem;
+}
+
+.blog-content ol ol ol {
+  list-style: lower-roman;
+}
+
 .blog-content figure {
   margin-left: auto;
   margin-right: auto;
