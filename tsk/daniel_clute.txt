@@ -1,1 +1,2 @@
-Add home page functionality. //News, etc.
+Generally cleanup layout.
+	[ ]Text is too large in phil.
