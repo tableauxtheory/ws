@@ -11,6 +11,18 @@ watchingImage = "/watching.png"
 watchingText = "How to create a Hugo theme from scratch — Berkay Çubuk // HugoConf 2023"
 watchingUrl = "https://www.youtube.com/watch?v=0WJ2lWNhqm8"
 
+[[links]]
+name = "Discord"
+url = "https://discord.gg/7tYCpnasP3"
+
+[[links]]
+name = "r/modernvisualnovels"
+url = "https://www.reddit.com/r/modernvisualnovels/"
+
+[[links]]
+name = "YouTube"
+url = "https://www.youtube.com/@TABLEAUX_THEORY"
+
 discordUrl = "https://discord.gg/7tYCpnasP3"
 redditUrl = "https://www.reddit.com/r/modernvisualnovels/"
 youtubeUrl = "https://www.youtube.com/@TABLEAUX_THEORY"

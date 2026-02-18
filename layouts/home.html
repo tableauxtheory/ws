@@ -1,15 +1,78 @@
 {{ define "main" }}
-  <div class="min-h-[70vh] flex items-center justify-center px-6">
-    <div class="flex flex-col items-center justify-center gap-6">
-      <div class="text-4xl font-bold text-center">We're under construction :O</div>
-      <div class="not-prose flex flex-col items-center gap-3">
-        <div class="text-sm opacity-80">links for more done things:</div>
-        <div class="flex flex-row flex-wrap justify-center gap-6">
-          {{ with .Params.discordUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Discord</a>{{ end }}{{ end }}
-          {{ with .Params.redditUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">r/modernvisualnovels</a>{{ end }}{{ end }}
-          {{ with .Params.youtubeUrl }}{{ if ne . "" }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">YouTube</a>{{ end }}{{ end }}
+  {{ $newsSection := site.GetPage "/home" }}
+  {{ $newsPages := slice }}
+  {{ with $newsSection }}
+    {{ $newsPages = .RegularPages.ByDate.Reverse }}
+  {{ end }}
+  <div class="min-h-[70vh] flex items-center justify-center px-6 py-10">
+    <div class="flex w-full max-w-2xl flex-col items-center justify-center gap-8">
+      {{ with $newsPages }}
+        <div class="not-prose home-news w-full">
+          <div class="news-list">
+            {{ range . }}
+              {{ $item := .Params }}
+              {{ if eq $item.type "article" }}
+                {{ $resolvedTitle := default (default .Title $item.title) $item.displayTitle }}
+                {{ if and (or (not $resolvedTitle) (eq (trim $resolvedTitle " ") "")) $item.linkUrl }}
+                  {{ with try (resources.GetRemote $item.linkUrl) }}
+                    {{ with .Value }}
+                      {{ $pageHTML := .Content | string }}
+                      {{ $h1Match := findRESubmatch `(?is)<h1[^>]*>\s*(.*?)\s*</h1>` $pageHTML 1 }}
+                      {{ if gt (len $h1Match) 0 }}
+                        {{ $h1Raw := index (index $h1Match 0) 1 }}
+                        {{ $h1Text := replaceRE `(?is)<[^>]+>` "" $h1Raw }}
+                        {{ $resolvedTitle = htmlUnescape (replaceRE `\s+` " " $h1Text | strings.TrimSpace) }}
+                      {{ else }}
+                        {{ $ogMatch := findRESubmatch `(?is)<meta[^>]+property=["']og:title["'][^>]+content=["'](.*?)["']` $pageHTML 1 }}
+                        {{ if eq (len $ogMatch) 0 }}
+                          {{ $ogMatch = findRESubmatch `(?is)<meta[^>]+content=["'](.*?)["'][^>]+property=["']og:title["']` $pageHTML 1 }}
+                        {{ end }}
+                        {{ if gt (len $ogMatch) 0 }}
+                          {{ $resolvedTitle = htmlUnescape (replaceRE `\s+` " " (index (index $ogMatch 0) 1) | strings.TrimSpace) }}
+                        {{ else }}
+                          {{ $titleMatch := findRESubmatch `(?is)<title[^>]*>\s*(.*?)\s*</title>` $pageHTML 1 }}
+                          {{ if gt (len $titleMatch) 0 }}
+                            {{ $resolvedTitle = htmlUnescape (replaceRE `\s+` " " (index (index $titleMatch 0) 1) | strings.TrimSpace) }}
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                <a class="news-item news-item-link" href="{{ $item.linkUrl }}" target="_blank" rel="noopener noreferrer">
+                  <div class="news-date">{{ .Date.Format "2006-01-02" }}</div>
+                  {{ with $item.thumbnailUrl }}
+                    <div class="news-thumb-wrap">
+                      <img class="news-thumb" src="{{ . }}" alt="{{ default "News thumbnail" $resolvedTitle }}" loading="lazy">
+                    </div>
+                  {{ end }}
+                  <div class="news-title">{{ $resolvedTitle }}</div>
+                  {{ if or $item.sourceSite $item.writer }}
+                    <p class="news-text">
+                      {{ with $item.sourceSite }}Source: {{ . }}{{ end }}
+                      {{ if and $item.sourceSite $item.writer }} · {{ end }}
+                      {{ with $item.writer }}Writer: {{ . }}{{ end }}
+                    </p>
+                  {{ else }}
+                    {{ with $item.text }}<p class="news-text">{{ . }}</p>{{ end }}
+                  {{ end }}
+                </a>
+              {{ else }}
+                <article class="news-item">
+                  <div class="news-date">{{ .Date.Format "2006-01-02" }}</div>
+                  {{ with $item.thumbnailUrl }}
+                    <div class="news-thumb-wrap">
+                      <img class="news-thumb" src="{{ . }}" alt="{{ default "News thumbnail" $item.title }}" loading="lazy">
+                    </div>
+                  {{ end }}
+                  <div class="news-title">{{ default .Title $item.title }}</div>
+                  {{ with $item.text }}<p class="news-text">{{ . }}</p>{{ end }}
+                </article>
+              {{ end }}
+            {{ end }}
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 {{ end }}
