@@ -41,19 +41,16 @@ ul li::before {
 }
 
 a.menu-link {
-  color: rgba(255, 255, 255, 1);
-  opacity: 0.6;
   text-decoration: none;
 }
 
-a.menu-link:hover {
-  opacity: 0.85;
-}
-
 a.menu-link.is-active {
-  opacity: 1;
+  color: var(--interactive-text-hover);
+  text-decoration-color: var(--interactive-underline);
   font-weight: 700;
   text-shadow: 0 0 14px rgba(255, 255, 255, 0.25);
+  cursor: default;
+  pointer-events: none;
 }
 
 nav ul li {
@@ -66,14 +63,11 @@ nav ul li {
 
 .store-link {
   font-size: 12px;
-  opacity: 0.8;
   text-decoration: none;
 }
 
 .store-link:hover {
-  opacity: 1;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 
 .terms {
@@ -238,6 +232,14 @@ nav ul li {
 :root {
   --news-hover-duration: 150ms;
   --news-hover-ease: ease;
+  --interactive-border: rgba(255, 255, 255, 0.32);
+  --interactive-border-hover: rgba(255, 255, 255, 0.62);
+  --static-border: rgba(255, 255, 255, 0.16);
+  --interactive-bg: rgba(255, 255, 255, 0.04);
+  --static-bg: rgba(255, 255, 255, 0.02);
+  --interactive-text: rgba(255, 255, 255, 0.78);
+  --interactive-text-hover: rgba(255, 255, 255, 1);
+  --interactive-underline: rgba(255, 255, 255, 0.72);
 }
 
 .news-list,
@@ -249,17 +251,94 @@ nav ul li {
 .news-item,
 .surface-card {
   display: block;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--static-border);
+  background: var(--static-bg);
   padding: 0.8rem 0.95rem;
 }
 
 .news-item-link,
 .surface-link-card {
+  cursor: pointer;
+  border-color: var(--interactive-border);
+  background: var(--interactive-bg);
   text-decoration: none;
   transition: border-color var(--news-hover-duration) var(--news-hover-ease),
     background-color var(--news-hover-duration) var(--news-hover-ease),
     box-shadow var(--news-hover-duration) var(--news-hover-ease);
+}
+
+.blog-entry,
+.store-link,
+.term-link,
+.menu-link,
+.toc-container a,
+.page-content a {
+  cursor: pointer;
+}
+
+a:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.95);
+  outline-offset: 2px;
+}
+
+a.menu-link,
+.store-link,
+.toc-container a,
+.page-content a,
+.news-title-link,
+.blog-content figcaption a {
+  color: var(--interactive-text);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color var(--news-hover-duration) var(--news-hover-ease),
+    text-decoration-color var(--news-hover-duration) var(--news-hover-ease),
+    text-shadow var(--news-hover-duration) var(--news-hover-ease);
+}
+
+a.menu-link:hover,
+a.menu-link:focus-visible,
+.store-link:hover,
+.store-link:focus-visible,
+.toc-container a:hover,
+.toc-container a:focus-visible,
+.page-content a:hover,
+.page-content a:focus-visible,
+.news-title-link:hover,
+.news-title-link:focus-visible,
+.blog-content figcaption a:hover,
+.blog-content figcaption a:focus-visible {
+  color: var(--interactive-text-hover);
+  text-decoration-color: var(--interactive-underline);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.22);
+}
+
+@media (hover: none), (pointer: coarse) {
+  a.menu-link,
+  .store-link,
+  .toc-container a,
+  .page-content a,
+  .news-title-link,
+  .blog-content figcaption a {
+    color: var(--interactive-text-hover);
+    text-decoration-color: rgba(255, 255, 255, 0.62);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+  }
+
+  .news-item-link,
+  .surface-link-card {
+    border-color: var(--interactive-border-hover);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  a:active,
+  .news-item-link:active,
+  .surface-link-card:active {
+    filter: brightness(1.12);
+  }
 }
 
 .news-date {
@@ -441,7 +520,7 @@ nav ul li {
 
 .news-item-link:hover,
 .surface-link-card:hover {
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: var(--interactive-border-hover);
   background: rgba(255, 255, 255, 0.08);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
 }

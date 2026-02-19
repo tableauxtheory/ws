@@ -41,6 +41,9 @@
       {{- $hasHref := and (ne $hrefClean "") (hasPrefix $hrefClean "/") }}
       {{- $isActiveByURL := and $hasHref (or (eq $currentNorm $hrefClean) (and (ne $hrefClean "/") (hasPrefix $currentNorm (printf "%s/" $hrefClean)))) }}
       {{- $isActive := or $isActiveByMenu $isActiveByURL }}
+      {{- if $isActive }}
+        {{- $attrs = dict "aria-current" "page" "aria-disabled" "true" }}
+      {{- end }}
       <li>
         <a class="text-sm menu-link{{ if $isActive }} is-active{{ end }}{{ if not $hasHref }} is-disabled{{ end }}"
           {{- range $k, $v := $attrs }}

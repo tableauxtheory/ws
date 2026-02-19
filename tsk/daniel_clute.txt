@@ -1,1 +1,0 @@
-Add signifiers for what is interactable and what isn't.
