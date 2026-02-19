@@ -1,7 +1,7 @@
 {{ define "main" }}
-  <div class="flex flex-col gap-8">
-    <div class="flex-1">
-      <h1 class="py-2">{{ .Title }}</h1>
+  <div class="flex flex-col gap-6">
+    <div class="flex-1 surface-card">
+      <h1 class="page-title">{{ .Title }}</h1>
 
       {{ with .Params.image }}
         {{- $src := . -}}
@@ -10,11 +10,11 @@
         {{- if fileExists $staticPath -}}
           {{- $src = printf "%s?v=%s" $srcBase (md5 (readFile $staticPath)) -}}
         {{- end -}}
-        <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md mb-6">
+        <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto mb-4">
       {{ end }}
 
       {{ with .Params.store }}
-        <div class="not-prose flex flex-row flex-wrap justify-center gap-6 mb-6">
+        <div class="not-prose surface-store-links mb-4">
           {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
           {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
           {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
@@ -22,7 +22,7 @@
         </div>
       {{ end }}
 
-      {{ .Content }}
+      <div class="page-content">{{ .Content }}</div>
     </div>
   </div>
 {{ end }}

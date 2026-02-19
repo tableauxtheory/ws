@@ -24,7 +24,7 @@
   {{ $allItems = sort $allItems "sortDate" "desc" }}
 
   {{ if $allItems }}
-    <div class="flex flex-col {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
+    <div class="surface-list {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
       {{ range $allItems }}
         {{ if eq .type "post" }}
           {{ $post := .data }}
@@ -32,8 +32,8 @@
           {{ if not $teaser }}{{ $teaser = $post.Params.description }}{{ end }}
           {{ if not $teaser }}{{ $teaser = $post.Summary }}{{ end }}
 
-          <a href="{{ $post.RelPermalink }}" class="blog-entry block">
-            <h2 class="blog-title text-lg">{{ $post.LinkTitle }}</h2>
+          <a href="{{ $post.RelPermalink }}" class="blog-entry surface-card surface-link-card">
+            <h2 class="blog-title">{{ $post.LinkTitle }}</h2>
             {{ with $teaser }}
               <p class="blog-teaser">
                 {{ . | plainify | truncate 180 }}
@@ -43,8 +43,8 @@
           </a>
         {{ else if eq .type "link" }}
           {{ $link := .data }}
-          <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer" class="blog-entry block">
-            <h2 class="blog-title text-lg">{{ $link.title }}</h2>
+          <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer" class="blog-entry surface-card surface-link-card">
+            <h2 class="blog-title">{{ $link.title }}</h2>
             {{ with $link.teaser }}
               <p class="blog-teaser">
                 {{ . | plainify | truncate 180 }}
@@ -56,7 +56,7 @@
       {{ end }}
     </div>
   {{ else }}
-    <p class="text-gray-400 mt-8">No posts or links found.</p>
+    <p class="section-empty mt-8">No posts or links found.</p>
   {{ end }}
 </div>
 {{ end }}

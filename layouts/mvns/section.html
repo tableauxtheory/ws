@@ -1,17 +1,17 @@
 {{ define "main" }}
   <div class="w-full">
     {{ $hasTitle := ne .Title "" }}
-    {{ with .Title }}<h1 class="text-3xl font-bold mb-4">{{ . }}</h1>{{ end }}
+    {{ with .Title }}<h1 class="page-title">{{ . }}</h1>{{ end }}
     {{ with .Content }}{{ . }}{{ end }}
 
     {{ $works := .RegularPages }}
     {{ if hugo.IsProduction }}{{ $works = where $works "Draft" false }}{{ end }}
     {{ if $works }}
-      <div class="{{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }} flex flex-col gap-6">
+      <div class="{{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }} surface-list mvns-list">
         {{ range $works }}
           {{ $img := .Params.image }}
-          <article class="not-prose flex flex-col gap-4 rounded-lg border border-transparent p-6">
-            <h2 class="text-lg font-semibold text-white text-center">{{ .LinkTitle }}</h2>
+          <article class="surface-card mvns-card">
+            <h2 class="surface-title">{{ .LinkTitle }}</h2>
 
             {{ with $img }}
               {{- $src := . -}}
@@ -20,11 +20,11 @@
               {{- if fileExists $staticPath -}}
                 {{- $src = printf "%s?v=%s" $srcBase (md5 (readFile $staticPath)) -}}
               {{- end -}}
-              <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto rounded-md">
+              <img src="{{ $src }}" alt="" class="pixelated pixel-frame w-full h-auto mvns-image">
             {{ end }}
 
             {{ with .Params.store }}
-              <div class="flex flex-row flex-wrap justify-center gap-6">
+              <div class="surface-store-links">
                 {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
                 {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
                 {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
@@ -32,12 +32,12 @@
               </div>
             {{ end }}
 
-            {{ with .Summary }}<p class="text-sm text-gray-300">{{ . | plainify | truncate 220 }}</p>{{ end }}
+            {{ with .Summary }}<p class="surface-text">{{ . | plainify | truncate 220 }}</p>{{ end }}
           </article>
         {{ end }}
       </div>
     {{ else }}
-      <p class="text-gray-400 mt-8">No works yet.</p>
+      <p class="section-empty mt-8">No works yet.</p>
     {{ end }}
   </div>
 {{ end }}

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="w-full">
   {{ $hasTitle := ne .Title "" }}
-  {{ with .Title }}<h1 class="text-3xl font-bold mb-4">{{ . }}</h1>{{ end }}
+  {{ with .Title }}<h1 class="page-title">{{ . }}</h1>{{ end }}
 
   {{ $posts := .RegularPages }}
   {{ if hugo.IsProduction }}{{ $posts = where $posts "Draft" false }}{{ end }}
@@ -31,7 +31,7 @@
   {{ $allItems = sort $allItems "sortDate" "desc" }}
 
   {{ if $allItems }}
-    <div class="flex flex-col gap-6 {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
+    <div class="surface-list {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
       {{ range $allItems }}
         {{ if eq .type "post" }}
           {{ $post := .data }}
@@ -66,41 +66,33 @@
           {{ if not $teaser }}{{ $teaser = $post.Params.description }}{{ end }}
           {{ if not $teaser }}{{ $teaser = $post.Summary }}{{ end }}
 
-          <a href="{{ $post.RelPermalink }}" class="block">
-            <article class="not-prose flex cursor-pointer flex-col space-y-4 rounded-lg border border-transparent p-6 transition-all duration-150 hover:border-white">
-              <h2 class="text-xl font-semibold">
-                <span class="text-white flex items-center">
-                  {{ with $icon }}<img src="{{ . }}" alt="" class="mr-2 pixelated pixel-icon">{{ end }}
-                  {{ $post.LinkTitle }}
-                </span>
-              </h2>
-              <ul class="pl-5">
-                <li><time class="text-sm text-gray-300">{{ $post.Date.Format "January 2, 2006" }}</time></li>
-                {{ with $teaser }}<li><em>{{ . | plainify | truncate 140 }}</em></li>{{ end }}
-              </ul>
-            </article>
+          <a href="{{ $post.RelPermalink }}" class="surface-card surface-link-card">
+            <h2 class="surface-title">
+              <span class="surface-title-row">
+                {{ with $icon }}<img src="{{ . }}" alt="" class="pixelated pixel-icon">{{ end }}
+                {{ $post.LinkTitle }}
+              </span>
+            </h2>
+            <time class="surface-meta">{{ $post.Date.Format "January 2, 2006" }}</time>
+            {{ with $teaser }}<p class="surface-text">{{ . | plainify | truncate 140 }}</p>{{ end }}
           </a>
         {{ else if eq .type "link" }}
           {{ $link := .data }}
-          <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer" class="block">
-            <article class="not-prose flex cursor-pointer flex-col space-y-4 rounded-lg border border-transparent p-6 transition-all duration-150 hover:border-white">
-              <h2 class="text-xl font-semibold">
-                <span class="text-white flex items-center">
-                  <img src="{{ $link.icon }}" alt="" class="mr-2 pixelated pixel-icon">
-                  {{ $link.title }}
-                </span>
-              </h2>
-              <ul class="pl-5">
-                <li><time class="text-sm text-gray-300">{{ .date }}</time></li>
-                {{ with $link.teaser }}<li><em>{{ . | plainify | truncate 140 }}</em></li>{{ end }}
-              </ul>
-            </article>
+          <a href="{{ $link.url }}" target="_blank" rel="noopener noreferrer" class="surface-card surface-link-card">
+            <h2 class="surface-title">
+              <span class="surface-title-row">
+                <img src="{{ $link.icon }}" alt="" class="pixelated pixel-icon">
+                {{ $link.title }}
+              </span>
+            </h2>
+            <time class="surface-meta">{{ .date }}</time>
+            {{ with $link.teaser }}<p class="surface-text">{{ . | plainify | truncate 140 }}</p>{{ end }}
           </a>
         {{ end }}
       {{ end }}
     </div>
   {{ else }}
-    <p class="text-gray-400 mt-8">No posts or links found.</p>
+    <p class="section-empty mt-8">No posts or links found.</p>
   {{ end }}
 </div>
 {{ end }}
