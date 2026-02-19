@@ -339,6 +339,24 @@ a.menu-link:focus-visible,
   .surface-link-card:active {
     filter: brightness(1.12);
   }
+
+  a.menu-link {
+    color: rgba(255, 255, 255, 0.68);
+    text-decoration-color: rgba(255, 255, 255, 0.34);
+    text-shadow: none;
+  }
+
+  a.menu-link:hover,
+  a.menu-link:focus-visible {
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+  }
+
+  a.menu-link.is-active {
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.16);
+  }
 }
 
 .news-date {
