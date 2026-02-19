@@ -229,6 +229,17 @@ nav ul li {
   max-width: 42rem;
 }
 
+.tab-feed {
+  width: 100%;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mvns-feed {
+  max-width: 42rem;
+}
+
 :root {
   --news-hover-duration: 150ms;
   --news-hover-ease: ease;
@@ -442,7 +453,7 @@ a.menu-link:focus-visible,
 }
 
 .mvns-card {
-  width: min(100%, 26.5rem);
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0.55rem 0.65rem;
@@ -466,7 +477,7 @@ a.menu-link:focus-visible,
 }
 
 .mvns-image {
-  max-width: 26rem;
+  max-width: 100%;
   margin-top: 0.45rem;
   margin-left: auto;
   margin-right: auto;
