@@ -1,13 +1,14 @@
 {{ define "main" }}
-  <div class="w-full tab-feed">
-    <h1 class="page-title">{{ .Title }}</h1>
+  <div class="w-full tab-feed mvns-feed">
+    {{ $hasTitle := ne .Title "" }}
+    {{ with .Title }}<h1 class="page-title">{{ . }}</h1>{{ end }}
     {{ with .Content }}{{ . }}{{ end }}
 
     {{ $entries := .RegularPages }}
     {{ if hugo.IsProduction }}{{ $entries = where $entries "Draft" false }}{{ end }}
     {{ $entries = sort $entries "File.BaseFileName" "asc" }}
     {{ if $entries }}
-      <div class="mt-6 surface-list">
+      <div class="{{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }} surface-list">
         {{ range $entries }}
           {{ $id := printf "entry-%s" (.File.ContentBaseName | anchorize) }}
           <section id="{{ $id }}" class="surface-card">
