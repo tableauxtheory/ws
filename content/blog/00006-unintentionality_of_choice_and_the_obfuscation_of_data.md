@@ -21,8 +21,13 @@ Even on further readthroughs, once they start experimenting and testing the nove
 ---
 
 \*Very much worth noting that I quite like resistance, just not resistance that halts or reverses progression, hence the rule #2's wording.
+
 †Namely, branching structure must be consciously understandable and telegraphed.
+
 ‡Attempting to fit *Everything I Know, and Everything I'm Ever Gonna Know* was a development headache and ultimately led to its structure being muddied.
+
 §I actually really like this jargon word of "flex" in modern visual novels...
+
 ¶Achievements as a roadmap for completionism is, thus, incompatible with this concept.
+
 \*\*Note on this article as a whole: This "flow vs task list" concept is not a requirement for something to be considered a "modern visual novel". It is, instead, a best practice from my own taste. Rule #2 *is* the rule as it stands. Listening to the spirit of the rule is up to the author.
