@@ -1,6 +1,5 @@
 {{ define "main" }}
 <div class="w-full tab-feed mvns-feed">
-  {{ $hasTitle := ne .Title "" }}
   {{/* Intentionally omit the section H1 for a more minimal blog index */}}
   {{ with .Content }}{{ . }}{{ end }}
 
@@ -24,7 +23,7 @@
   {{ $allItems = sort $allItems "sortDate" "desc" }}
 
   {{ if $allItems }}
-    <div class="surface-list {{ if $hasTitle }}mt-6{{ else }}mt-2{{ end }}">
+    <div class="surface-list mt-2">
       {{ range $allItems }}
         {{ if eq .type "post" }}
           {{ $post := .data }}
