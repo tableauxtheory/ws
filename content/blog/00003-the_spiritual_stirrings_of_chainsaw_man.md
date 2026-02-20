@@ -41,4 +41,5 @@ I strongly believe that this peculiarity method of spiritual stirring can point 
 ---
 
 ¹On this, it is also neat that her endearing flaws, which brought the viewer closer to her personally as well, were also made known very recently. Very smart.
+
 ²I can't help but also mention this unceremoniousness that ties into the meaninglessness of her death — she had to give her entire body to lose to another who only gives one fingernail. Absolutely brilliant, if not soul-crushing.

@@ -29,4 +29,5 @@ For the next while, or, until I build up savings enough to justify a grander tal
 ---
 
 ¹I am, by the by, very uneasy about doing the YouTube video element of this. I wish I could just leave all this to blog posts, but, given what will be seen in the rest of this article, the content has to actually be *seen*, and this just won't happen if I simply post on my personal website. I've tried other text-based blogging sites such as Medium, but there was seemingly no organic traction via its algorithm. If anyone knows how to gain traction, reach out please. For now, it seems my only choice is to read these text-based articles on YouTube to gain response.
+
 ²"Mental web", I'm sure, is interpretable by the reader, but by all means, I'm just talking about the interconnected ideas that make up my philosophy.
