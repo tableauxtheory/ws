@@ -1,14 +1,14 @@
 +++
 title = 'Infantile Thoughts on Normal Maps'
 date = 2026-02-28
-draft = true
+draft = false
 tags = ['blog']
 teaser = "At least I'm thinking about it."
 +++
 
-I've been making myself more open to new rendering styles. I can confirm my next project will natively be in 1920x1080p. This, if you are using any sort of interpolated filtering, would mean very little. However, since I am dedicated to point filtering, meaning that every pixel is in my control, this change in rendering affects my entire pipeline. I intend, however, for 1920x1080 (or, close to it if aspect ratios change) to be my default going forward. It is seemingly the highest widely used modern ratio that still retains the easy visibility of individual pixels.
+I've been making myself more open to new rendering styles. I can confirm my next project will natively be in 1920x1080. This, if you are using any sort of interpolated filtering, would mean very little. However, since I am dedicated to point filtering, meaning that every pixel is in my control, this change in rendering affects my entire pipeline. I intend, however, for 1920x1080 (or, close to it if aspect ratios change) to be my default going forward. It is seemingly the highest widely used modern ratio that still retains the easy visibility of individual pixels.
 
-This is just one of the many areas that I've updated after the production of *Everything I Know, and Everything I'm Ever Gonna Know*. 
+This is just one of the many areas that I've updated after the production of *Everything I Know, and Everything I'm Ever Gonna Know*.
 
 The area that I've been most surprised by is in my deep dive into physically based rendering.
 
@@ -26,9 +26,9 @@ Well...
 
 ![normals and height.](/blog/00007-normals.png)
 
-Now, you look at that, and, yes, it does indeed have the feel of "higher production value", but it definitely *does* make my gut feel bad. I just don't like it. The style is just... Muddy. It feels like an uncontrolled mess, losing its feeling of authorial intent.
+Now, you look at that, and, yes, it does indeed have the feel of "higher production value", but it definitely *does* make my gut feel bad. I just don't like it. The style is just... "Muddy". It feels like an uncontrolled mess, losing its feeling of authorial intent.
 
-On the abstraction axis — realistic to symbolic — this falls far too into the realistic for my taste. In my art, I certainly like my organic material — humans, plants, etc. — to be more on the symbolic side than my inorganic, but the inorganic materials still need to be somewhat symbolic. Not purely pushing towards realism, that is. It hits this weird space where everything is close enough that any imperfections (which will exist) make things feel wrong... The suspension of disbelief is lost, I think?
+On the abstraction axis — realistic to symbolic — this falls far too into realism for my taste. In my art, I certainly like my organic material — humans, plants, etc. — to be more on the symbolic side than my inorganic materials, but the inorganic materials still need to be somewhat symbolic — that is, not purely pushing towards realism. It hits this weird space where everything is close enough that any imperfections (which will exist) make things feel wrong... The suspension of disbelief is lost, I think?
 
 You know, I'm not entirely certain why this bothers me. Would love some thoughts. If you see this, and have thoughts on this sort of thing, reach out via phil@tableauxtheory.com.
 
