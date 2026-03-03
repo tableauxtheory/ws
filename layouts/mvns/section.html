@@ -25,10 +25,27 @@
 
             {{ with .Params.store }}
               <div class="surface-store-links">
-                {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">steam</a>{{ end }}
-                {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">gog</a>{{ end }}
-                {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
-                {{ with .kickstarter }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">kickstarter</a>{{ end }}
+                {{ if or .steam .jast .gog .itch .kickstarter }}
+                  <div class="surface-store-row">
+                    {{ with .steam }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Steam</a>{{ end }}
+                    {{ with .jast }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">JAST USA</a>{{ end }}
+                    {{ with .gog }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">GOG</a>{{ end }}
+                    {{ with .itch }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io</a>{{ end }}
+                    {{ with .kickstarter }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Kickstarter</a>{{ end }}
+                  </div>
+                {{ end }}
+                {{ if or .steam_demo .jast_demo .itch_demo }}
+                  <div class="surface-store-row">
+                    {{ with .steam_demo }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">Steam Demo</a>{{ end }}
+                    {{ with .jast_demo }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">JAST USA Demo</a>{{ end }}
+                    {{ with .itch_demo }}<a class="store-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">itch.io Demo</a>{{ end }}
+                  </div>
+                {{ end }}
+                {{ if .amazon_play }}
+                  <div class="surface-store-row">
+                    <a class="store-link" href="{{ .amazon_play }}" target="_blank" rel="noopener noreferrer">Play Adaptation</a>
+                  </div>
+                {{ end }}
               </div>
             {{ end }}
 
