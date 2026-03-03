@@ -1,6 +1,6 @@
 +++
 title = 'My Tone'
-date = 2026-03-07
+date = 2026-03-06
 draft = true
 tags = ['blog']
 teaser = "Is this too dark?"
