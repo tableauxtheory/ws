@@ -7,6 +7,11 @@ body {
   background-color: #000000;
 }
 
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
 img.pixelated,
 .pixelated img {
   image-rendering: pixelated;
@@ -42,12 +47,12 @@ ul li::before {
 
 a.menu-link {
   text-decoration: none;
+  font-weight: 600;
 }
 
 a.menu-link.is-active {
   color: var(--interactive-text-hover);
   text-decoration-color: var(--interactive-underline);
-  font-weight: 700;
   text-shadow: 0 0 14px rgba(255, 255, 255, 0.25);
   cursor: default;
   pointer-events: none;

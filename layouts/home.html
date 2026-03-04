@@ -4,8 +4,8 @@
   {{ with $newsSection }}
     {{ $newsPages = .RegularPages.ByDate.Reverse }}
   {{ end }}
-  <div class="min-h-[70vh] flex items-center justify-center px-6 py-10">
-    <div class="flex w-full max-w-2xl flex-col items-center justify-center gap-8">
+  <div class="w-full">
+    <div class="mx-auto flex w-full max-w-2xl flex-col items-center gap-8">
       {{ with $newsPages }}
         <div class="not-prose home-news w-full">
           <div class="news-list">
