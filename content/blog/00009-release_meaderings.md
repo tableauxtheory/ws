@@ -1,7 +1,7 @@
 +++
 title = 'Release Meanderings'
 date = 2026-03-13
-draft = true
+draft = false
 tags = ['blog']
 teaser = "Just various thinkings."
 +++
