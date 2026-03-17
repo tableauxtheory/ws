@@ -1,7 +1,7 @@
 +++
 title = 'On Resolution'
 date = 2026-03-20
-draft = true
+draft = false
 tags = ['blog']
 teaser = "I've been caught on this as of late."
 +++
