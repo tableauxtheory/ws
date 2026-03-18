@@ -1,6 +1,7 @@
 +++
 title = "Everything I Know, and Everything I'm Ever Gonna Know"
 image = "/mvn_sd_capsule.png"
+weight = 2
 
 [store]
   steam = "https://store.steampowered.com/app/3865550/Everything_I_Know_and_Everything_Im_Ever_Gonna_Know/"
