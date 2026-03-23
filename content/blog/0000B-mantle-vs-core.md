@@ -23,5 +23,7 @@ Now dare with me to assume that we not only may but should and must view all sto
 
 //TODO: Need to go more in-depth with examples of stories with very dark mantles that point towards God and stories with light mantles that point towards the Devil.
 
+//TODO: Talk about your tendency to allow the core to "bubble up" into mantle.
+
 ---
 \*I've yet to view *The Barbie Movie* for no reason other than I've only watched perhaps 5 movies since it released and it just happens to not have been one. It sounds, however, like a fairly clear example of a modern *Pilgrim's Progress* style allegory for the "religion" of 2020s feminism.
