@@ -1,7 +1,7 @@
 +++
 title = 'Mantle and Core'
 date = 2026-03-27
-draft = true
+draft = false
 tags = ['blog']
 teaser = "We are confused."
 +++
