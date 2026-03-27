@@ -186,6 +186,26 @@ nav ul li {
   list-style: lower-roman;
 }
 
+.blog-content ul {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+  margin: 1rem 0;
+}
+
+.blog-content ul li {
+  padding-left: 0;
+  margin: 0.2rem 0;
+}
+
+.blog-content ul li::before {
+  display: none;
+}
+
+.blog-content ul li::marker {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .blog-content figure {
   margin-left: auto;
   margin-right: auto;
