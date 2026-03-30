@@ -20,7 +20,7 @@ The best artist has both the desire to respect tradition while also constantly q
 
 Another type of artist is the "aesthetic" artist. A good "aesthetic" artist is really an artist for other artists. They basically explore aesthetics sans story, which is culturally useless until applied to a story of sorts.
 
-Not to be confused with the "aesthetic" artist is the "sheep" artist. A quite brutal name, but accurate to some degree. The "sheep" artist retells stories already told. They aren't exploring, they aren't experimenting, they're just retelling stories — perhaps with an alternate aesthetic borrowed from the "aesthetic" artist. One could argue that these "sheep" artists hone in on the story, refining it over time, but it seems to me that this is not true in practice.
+Not to be confused with the "aesthetic" artist is the "sheep" artist. The "sheep" artist retells stories already told. They aren't exploring, they aren't experimenting, they're just retelling stories — perhaps with an alternate aesthetic borrowed from the "aesthetic" artist. One could argue that these "sheep" artists hone in on the story, refining it over time, but it seems to me that this is not true in practice.
 
 //TODO: Probably just wrap things up.
 
