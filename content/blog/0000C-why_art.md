@@ -1,7 +1,7 @@
 +++
 title = 'Why Art?'
 date = 2026-04-03
-draft = true
+draft = false
 tags = ['blog']
 teaser = "And what is the responsibility of an artist?"
 +++
