@@ -6,13 +6,13 @@ tags = ['blog']
 teaser = "And what is the responsibility of an artist?"
 +++
 
-I am of the belief that the artist or, more particularly, the storyteller, is responsible as sort of the metaphorical "scout" of the humanity's conceptualizations.
+I am of the belief that the artist or, more particularly, the storyteller, is responsible for being sort of the metaphorical "scout" of humanity's conceptualizations.
 
-If you are an aerospace engineer, how fast can you push out a product? Something sounds wrong even in this statement. Heavens, we musn't "push" anything out when the stakes are so high. Nobody wants to fly an experimental plane. "Hey, I've got this idea for a new type of wing, and I was wondering if you want to give it a shot?" That's insane.
+If you are an aerospace engineer, how fast can you push out a product? Something sounds wrong even in this statement. Heavens, we mustn't "push" anything out when the stakes are so high. Nobody wants to fly an experimental plane. "Hey, I've got this idea for a new type of wing, and I was wondering if you want to give it a shot?" That's insane.
 
 "Hey, I've got this great idea for a new type of game/movie/book/etcetera, and I was wondering if you'd like to give it a shot?" That's lovely.\*
 
-This is where I believe the function of the artist lies. Go out, consider the deficiencies in cultural conceptualizations and reconsider. This is why so many artists have been culturally "liberal". "Liberal", in the literal sense, means to give in generous amounts. Generously try things, is how I think of it. Try to convince the more conservative to advance and change, while the conservatives argue the point of tradition. This is how it should be in theory.
+This is where I believe the function of the artist lies. To go out, consider the deficiencies in cultural conceptualizations, and reconsider. This is why so many artists have been culturally "liberal". "Liberal", in the literal sense, means to give in generous amounts. Generously try things is how I think of it. Try to convince the more conservative to advance and change, while the conservatives argue the point of tradition. This is how it should be in theory.
 
 And if one were to be a truly functioning liberal — or, if at the extreme end of liberality, an artist — they would have a deep understanding and respect for tradition. Know the rules before you break the rules, if you will. This is typically the sign of a good artist vs. an idiot.
 
@@ -20,9 +20,9 @@ The best artist has both the desire to respect tradition while also constantly q
 
 Another type of artist is the "aesthetic" artist. A good "aesthetic" artist is really an artist for other artists. They basically explore aesthetics sans story, which is culturally useless until applied to a story of sorts.
 
-Not to be confused with the "aesthetic" artist is the "sheep" artist. The "sheep" artist retells stories already told. They aren't exploring, they aren't experimenting, they're just retelling stories — perhaps with an alternate aesthetic borrowed from the "aesthetic" artist. One could argue that these "sheep" artists hone in on the story, refining it over time, but it seems to me that this is not true in practice. I believe this is likely because, in order to hone in on the story, one must first fully understand the reasoning for each beat. The original teller, whether consciously or unconsciously, almost certain has to understand this. Subsequent tellers could study a piece infinitely and still reach wrong conclusions.
+Not to be confused with the "aesthetic" artist is the "sheep" artist. The "sheep" artist retells stories already told. They aren't exploring, they aren't experimenting, they're just retelling stories — perhaps with an alternate aesthetic borrowed from the "aesthetic" artist. One could argue that these "sheep" artists hone in on the story, refining it over time, but it seems to me that this is not true in practice. I believe this is likely because, in order to hone in on the story, one must first fully understand the reasoning for each beat. The original teller, whether consciously or unconsciously, almost certainly has to understand this. Subsequent tellers could study a piece infinitely and still reach wrong conclusions.
 
-For me, though, I am the type of artist mentioned at the start. The exploratory, story discovering and presenting sort of artist. I find most meaning in patching and improving systems. Being on the forefront of discovering new paths for humanity to live by whilst treating as sacred those traditions that deserve it.†
+For me, though, I am the type of artist mentioned at the start. The exploratory, story discovering and presentational sort of artist. I find most meaning in patching and improving systems. Being on the forefront of discovering new paths for humanity to live by whilst treating as sacred those traditions that deserve it.†
 
 ---
 
