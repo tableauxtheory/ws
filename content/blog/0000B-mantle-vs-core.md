@@ -6,7 +6,7 @@ tags = ['blog']
 teaser = "We are confused."
 +++
 
-Why, every time I bring this up, I am inflame those around me. Perhaps I am confused, perhaps they are... Who knows. Which matters, the mantle or the core?
+Why, every time I bring this up, I inflame those around me. Perhaps I am confused, perhaps they are... Who knows. Which matters, the mantle or the core?
 
 I mean the mantle or the core of a story. So let's define first. I'll use "The Tortoise and the Hare" as an illustrative example in the definitions.
 
