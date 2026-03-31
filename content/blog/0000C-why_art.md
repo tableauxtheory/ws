@@ -22,10 +22,9 @@ Another type of artist is the "aesthetic" artist. A good "aesthetic" artist is r
 
 Not to be confused with the "aesthetic" artist is the "sheep" artist. The "sheep" artist retells stories already told. They aren't exploring, they aren't experimenting, they're just retelling stories — perhaps with an alternate aesthetic borrowed from the "aesthetic" artist. One could argue that these "sheep" artists hone in on the story, refining it over time, but it seems to me that this is not true in practice. I believe this is likely because, in order to hone in on the story, one must first fully understand the reasoning for each beat. The original teller, whether consciously or unconsciously, almost certain has to understand this. Subsequent tellers could study a piece infinitely and still reach wrong conclusions.
 
-For me, though, I am the type of artist mentioned at the start. The exploratory, story discovering and presenting sort of artist. I find most meaning in patching and improving systems. Being on the forefront of discovering new paths for humanity to live by whilst treating as sacred those traditions that deserve it.\*\*\*
+For me, though, I am the type of artist mentioned at the start. The exploratory, story discovering and presenting sort of artist. I find most meaning in patching and improving systems. Being on the forefront of discovering new paths for humanity to live by whilst treating as sacred those traditions that deserve it.†
 
 ---
 
 \*Ok, not always — let's specify that this question is coming from a respected artist though, rather than some random guy on the street. And yes, even if it were a respected aerospace engineer, I do not want to fly in an experimental plane.
-\*\*Though they do irk me.
-\*\*\*Proverbs or the Gospels, for example.
+†Proverbs or the Gospels, for example.
