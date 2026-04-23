@@ -1,18 +1,18 @@
 +++
 title = 'Exhaustion in Glorious Pursuit'
 date = 2026-04-24
-draft = true
+draft = false
 tags = ['blog']
 teaser = "It'll be ok."
 +++
 
-I've been working on interactive media for about a decade now. Spring 2017 is when I started. Now, I didn't become "full time" until fall of 2021, but even still, that's a long time to be devoting nearly all of your energy into one thing. Especially given that I am 27.
+I've been working on interactive media for about a decade now. Spring 2017 is when I started. Now, I didn't become "full time" until fall of 2021, but even still, that's a long time to be devoting nearly all of your energy to one thing. Especially given that I am 27.
 
 So just about a third of my life has been somewhat heavily devoted to this one pursuit in one way or another. And not interactive media in general, but specifically communication in interactive media.
 
-When someone speaks of communication in interactive media, they usually think the more "A+B=C and A+D=C so what does D equal" sort of mechanical implications of many puzzle games or, if not that, the cinematic integration of a Naughty Dog. What I was looking for, however, and what I have studied, was neither of these things.
+When someone speaks of communication in interactive media, they usually think of the "A+B=C and A+D=C so what does D equal" sort of mechanical implications of many puzzle games or, if not that, the cinematic integration of a Naughty Dog. What I was looking for, however, and what I have studied, was neither of these things.
 
-Instead mine is "mechanical poetry", as I like to call it.\* But surely I've talked about this elsewhere.
+Instead, mine is "mechanical poetry", as I like to call it.\* But surely I've talked about this elsewhere.
 
 What I want to talk about is the sorts of emotions that come when you've been doing this sort of thing for nearly a decade without too much recognition.
 
@@ -37,9 +37,9 @@ The purpose of this blog is not to dissuade anyone from attempting to change the
 1. Start as specific as you possibly can‡: Even the smallest of changes, if truly made, are an abundance of work. I'm talking, of course, about changes to tradition rather than viral but fleeting sorts of changes. Yes, you can become famous or whatever else, but we aren't concerned with that. Instead, we're concerned with altering culture's canon of tradition.
 2. Be prepared for a *long* run of little external pats.
 
-If, however, you truly believe what you are doing is truly valuable — or, perhaps more specifically, mandated by God — I can confirm, exhausted unfinished, there is no better way to spend one's days.
+If, however, you truly believe what you are doing is truly valuable — or, perhaps more specifically, mandated by God — I can confirm, exhausted and unfinished, there is no better way to spend one's days.
 
 ---
-\*The Sorrow's river walk from MGS3 is my goto example.
+\*The Sorrow's river walk from MGS3 is my go-to example.
 †It isn't quite right to say that I spent a year and a half on this project. In truth, I spent a year and a half learning C, building frameworks, redesigning workflows, etc. in addition to building the novel.
-‡It is worth noting, at least in my experience, this specific "thing" was a gut feeling at the start. I knew interactive media could do more, but I struggled to be specific. Part of the journey may come in defining.
+‡It is worth noting, at least in my experience, that this specific "thing" was a gut feeling at the start. I knew interactive media could do more, but I struggled to be specific. Part of the journey may come in defining.
