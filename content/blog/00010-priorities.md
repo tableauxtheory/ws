@@ -24,7 +24,7 @@ Now that I am older, however, I am finding some degree of misunderstanding in th
 
 That is to say, neither of these pursuits have even begun to blossom — I am neither married nor do I have a product successful enough to employ — and yet I cannot believe what life the pursuits have brought me.
 
-If everything I do is in service to these things (ultimately upstreaming to God), individual experiences, even seemingly become better and better.
+If everything I do is in service to these things (ultimately upstreaming to God), individual experiences, even, seemingly become better and better.
 
 For example, when I moved back to Fort Worth, TX, I wanted to replicate the sort of friend group that I had in Asheville, NC. Now, I wasn't intentional about the one in Asheville — it just sortof formed — but when I saw it, and when I saw one of my friends sort of leading it, I thought to myself, "isn't this sort of thing similar to a business? Isn't how these emotions are being handled between peers sort of a training ground for being either a dad or a boss?"
 
@@ -36,4 +36,4 @@ Everyone has such individual and interesting problems!
 
 Now, admittedly, I spend most of my time with single, 20s and 30s individuals, so much of the problems of this group are in the category of love, longing, sex, relationships, confusion, regret, shame, naivety, separation, etc., and I am becoming curious to see problems of a different sort, but even within this realm, the net of problems is seemingly vast and endless.
 
-<!--TODO: Continue from here.-->
+Having these set priorities, despite their not being executed thus far, has led me in a *much* more fulfilling direction than if I had aimlessly wandered for this time. Limiting and focusing one's ambitions seems to me essential.
