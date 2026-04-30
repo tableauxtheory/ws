@@ -1,7 +1,7 @@
 +++
 title = 'Priorities'
 date = 2026-05-01
-draft = true
+draft = false
 tags = ['blog']
 teaser = "What is most important?"
 +++
