@@ -1,7 +1,7 @@
 +++
 title = 'Locus of Focus'
 date = 2026-05-04
-draft = false
+draft = true
 tags = ['blog']
 teaser = "What makes up the shower thoughts?"
 +++
