@@ -32,9 +32,33 @@ Going back to how I mentioned that the negative feedback loops prevented me from
 
 I just released *Everything I Know, and Everything I'm Ever Gonna Know*, a project that, while not perfect, I still consider to be very good. The feedback has been shockingly postive for such a strange and experimental little project, so I can't help but be grateful for that. However, despite this, monetarily it has been almost entirely a flop thus far. 
 
-To work on something for 50-60 hours a week for about a year-and-a-half and need to start looking for ways to earn money after it is finished is a bit debilitating. Not unexpected, as this is a difficult industry to navigate and all of this takes time, but since we are considering the human element of feedback loops, it is a pretty difficult feedback hit to trudge through.
+To work on something for 50ish+ hours a week for about a year-and-a-half and need to start looking for ways to earn money after it is finished is a bit debilitating. Not unexpected, as this is a difficult industry to navigate and all of this takes time, but since we are considering the human element of feedback loops, it is a pretty difficult feedback hit to trudge through.
 
-It makes it rather difficult to be excited to put in the work and the hours to <!--TODO: Continue from here. Try to make it end on a solution or a positive note.-->
+And yet that's what I signed up for. I've had opportunity throughout my life to pursue finances, and I'd much rather be where I am than the destination financial persuit would have brought me.
+
+But given this, how do I get my human side on board with directing my locus of focus? How do I direct my shower thoughts?
+
+First of all, I've gotta stop short form video.
+
+I *love* the dopamine hit that short form video brings, but it is just not good for having proper and steady control over what I think. Instead of craving slow and steady dopamine hits in my thought processes, my mind begins to veer towards anything that will squeeze as much as possible... Which tends to be more sensationalist elements in my life (social drama, primarily). Not a good cycle.
+
+Additionally, I should find little ways to reward good works in my work life. It is a grind. You always hear about the "10 year overnight success", in which someone reaps so little validation for so long that, while they've been hard at work for quite some time, they've been invisible to the public eye until a their major success. If I am ever successful at all, I will clearly be a "10 year overnight success". 
+
+So given this, little rewards to feed my human side are essential. It is also essential, however, to insure that these rewards are tied to the work, which I've failed to do. My work-life balance has been good — I've been letting myself go to little social events that bring me joy, but, for one, they're not really tied to my work. Also, I'm not always sure that I am getting the "pat on the head" kind of reward from them, or more "I'm doing good appearing at this thing" kind of reward. Both are great, but I really need more "pat on the head" kinds of rewarding...
+
+The problem is that I just don't like that many things... What in the world do I reward myself with? I mean, I love chicken nuggets, but I've used these as a reward structure so much that they has lost their luster a bit.
+
+Hmmm hmmm hmmm...
+
+I wish that I could rely on positive feedback from the public, but anyone who knows anything knows that this is the most unreliable it could be, even if I had more traction...
+
+Watching *The Amazing Digital Circus* and *Kill Tony* have both been big benefits, but I've almost run out of episodes of the former and the latter is losing its luster on me. Plus, I'm not sure that I've properly tied these to work.
+
+I guess I don't even know how to tie these rewards to work...
+
+Maybe they are tied to work? That time immediately after a completed weekday really is the "work reward zone". And I've been spending that time trying to appear at things for other people. Which, again, good in certain situations, just not if I'm trying to develop my work reward structure.
+
+So chicken nuggets, *The Amazing Digital Circus* and *Kill Tony* have all been the right idea. I just need to find new things like these.
 
 ---
 
