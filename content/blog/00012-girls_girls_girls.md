@@ -1,7 +1,7 @@
 +++
 title = 'Girls, Girls, Girls!"
 date = 2026-05-15
-draft = false
+draft = true
 tags = ['blog']
 teaser = "But I'm glad to be a guy."
 +++
