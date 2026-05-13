@@ -3,7 +3,7 @@ title = 'Girls, Girls, Girls!"
 date = 2026-05-15
 draft = true
 tags = ['blog']
-teaser = "But I'm glad to be a guy."
+teaser = "What is wrong with me?"
 +++
 
 I don't know. I think it's ok to write about this?
