@@ -1,7 +1,7 @@
 +++
 title = "Girls, Girls, Girls!"
 date = 2026-05-15
-draft = true
+draft = false
 tags = ['blog']
 teaser = "What is wrong with me?"
 +++
