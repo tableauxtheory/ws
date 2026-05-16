@@ -54,5 +54,7 @@ This, and God-willing, a steady income to support myself and others.
 ---
 
 \*In a development blog? Well... Maybe. But keep in mind I don't really separate life and work. It is perhaps disingenuous to do so in an artistic field.
+
 †Frankly, I am also wary of where I am at.
+
 ‡See: sometimes.
